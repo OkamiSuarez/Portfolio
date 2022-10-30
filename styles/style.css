@@ -1,0 +1,7 @@
+body{
+    background-color: black;
+    color: white;
+}
+.portfolio__titles{
+    display: flex;
+}
