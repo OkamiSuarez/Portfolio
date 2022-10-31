@@ -4,8 +4,8 @@ body{
 }
 .portfolio__titles{
     display: flex;
-}
-.portfolio__titles--img{
-    height: 10rem;
-    width: 10rem;
+    .portfolio__titles--img{
+        height: 10rem;
+        width: 10rem;
+    }
 }

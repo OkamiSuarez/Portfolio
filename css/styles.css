@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.portfolio__titles {
+  display: flex;
+}
+.portfolio__titles .portfolio__titles--img {
+  height: 10rem;
+  width: 10rem;
+}/*# sourceMappingURL=styles.css.map */
