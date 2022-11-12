@@ -1,68 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GOSV</title>
 </head>
+
 <body>
-    <!-- Titles  -->
-        <div class="portfolio__titles">
-            <h1 class="portfolio__titles--name">Guimi Okami Suárez Valdivia</h1>
-            <h2 class="portfolio__titles--work">SE Analyst / Web Developer</h2>
-            <img class="portfolio__titles--img" src="https://www.akc.org/wp-content/uploads/2017/11/Shiba-Inu-standing-in-profile-outdoors.jpg" alt="shibe">
-            <button onclick="downloadCV()">Download CV</button>
+    <!-- start of header -->
+    <header class="portfolio__titles">
+        <!-- Titles  -->
+        <nav class="portfolio__titles--nav">
+            <!-- Bootstrap Navs -->
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <div class="container-fluid">
+                        <h1 class="portfolio__titles--name">Guimi Okami Suárez Valdivia</h1>
+                        <h2 class="portfolio__titles--work">SE Analyst / Web Developer</h2>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="container-fluid">
+                        <img class="portfolio__titles--img" src="https://www.akc.org/wp-content/uploads/2017/11/Shiba-Inu-standing-in-profile-outdoors.jpg" alt="shibe">
+                    </div>
+                </li>
+                        <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Contents</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#anchor-aboutMe">About Me</a></li>
+                        <li><a class="dropdown-item" href="#anchor-activities">The things I do</a></li>
+                        <li><a class="dropdown-item" href="#anchor-languages">Languages</a></li>
+                        <hr class="dropdown-divider">
+                        <li><a class="dropdown-item" href="#anchor-education">Education</a></li>
+                        <li><a class="dropdown-item" href="#anchor-experience">Experience</a></li>
+                        <li><a class="dropdown-item" href="#anchor-projects">Projects</a></li>
+                        <hr class="dropdown-divider">
+                        <li><a class="dropdown-item" href="#anchor-contact">Where you can find me</a></li>
+                        <li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-outline-success me-2" type="button" onclick="downloadCV()">Download CV</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end of header start of main -->
+    <main class="portfolio__container--main">
+        <!-- Welcome -->
+        <div class="portfolio__welcome">
+            <h2 class="portfolio__welcome--text">Hey :) Nice to meet you, I'm Okami and I hope you are having a great
+                day
+            </h2>
+            <h3 class="portfolio__welcome--text">Please, make yourself comfortable and scroll as much as you want</h3>
         </div>
-    <!-- About me -->
-        <div class="portfolio__aboutMe">
-            <p class="portfolio__aboutMe--ti">About me</p>
+        <!-- About me -->
+        <div class="portfolio__aboutMe" id="anchor-aboutMe">
+            <h3 class="portfolio__aboutMe--ti">A little bit about me, who I am and what I have achieved</h3>
             <article class="portfolio__aboutMe--info">
-                <p class="portfolio__aboutMe--text">I studied a bachelor on Sports Science and I have been an athlete for about 8 years. I have learned most of my values from sports and I have been living accordingly every day.</p>
-                <p class="portfolio__aboutMe--text">Teamwork is one of the fastest ways to achieve a task, but independently, self-teaching, discipline and efficient work are the attitudes that inspire others to get a better job done.</p>
-                <p class="portfolio__aboutMe--text">Right now, I want to specialize in backend development by working with Javascript, Sql & Java. To me, programming has been one of the most exciting things I have ever learned; growing up I found inspiring seeing all those people who has helped improve our lives through programming. That is what I am willing to work for.</p>
+                <p class="portfolio__aboutMe--text">Living in Mexico I studied a bachelor on Sports Science and I have been an athlete
+                    for
+                    about 8 years. I have learned most of my values from sports and I have been living accordingly every
+                    day.</p>
+                <p class="portfolio__aboutMe--text">Teamwork is one of the fastest ways to achieve a task, but
+                    independently, self-teaching, discipline and efficient work are the attitudes that inspire others to
+                    get
+                    a better job done.</p>
+                <p class="portfolio__aboutMe--text">Right now, I want to specialize in backend development by working
+                    with
+                    Javascript, Sql & Java. To me, programming has been one of the most exciting things I have ever
+                    learned;
+                    growing up I found inspiring seeing all those people who has helped improve our lives through
+                    programming. That is what I am willing to work for.</p>
             </article>
         </div>
-    <!-- Activities -->
-        <div class="portfolio__activities">
-            <ul class="portfolio__activities--title">Activities
+        <!-- Activities -->
+        <div class="portfolio__activities" id="anchor-activities">
+            <ul class="portfolio__activities--ul">
+                <h3 class="portfolio__activities--title">Activities</h3>
                 <li class="portfolio__activities--li">Sports practice (volleyball, table tennis, swimming, GYM)</li>
                 <li class="portfolio__activities--li">Videogames</li>
                 <li class="portfolio__activities--li">Self learning</li>
                 <li class="portfolio__activities--li">Problem solving</li>
             </ul>
         </div>
-    <!-- Foreign Languages -->
-        <div class="portfolio__foreignLanguages">Foreign languages
-            <ul class="portfolio__foreignLanguages--title">Spanish
+        <!-- Foreign Languages -->
+        <div class="portfolio__foreignLanguages" id="anchor-languages">
+            <h3 class="portfolio__foreignLanguages--title">The languages I speak</h3>
+            <ul class="portfolio__foreignLanguages--languageTitle">Spanish
                 <li class="portfolio__foreignLanguages--li">Native</li>
             </ul>
-            <ul class="portfolio__foreignLanguages--title">English
+            <ul class="portfolio__foreignLanguages--languageTitle">English
                 <li class="portfolio__foreignLanguages--li">Fluent</li>
             </ul>
         </div>
-    <!-- Experience -->
-        <div class="portfolio__experience">
-            <ol class="portfolio__experience--title">Where I've worked
-                <li class="portfolio__experience--place">Private teacher
-                    <ul>
-                        <li class="portfolio__experience--description">Math teacher from high school to university</li>
-                    </ul>
-                </li>
-                <li class="portfolio__experience--place">Amazon
-                    <ul>
-                        <li class="portfolio__experience--description">VCS Bilingual Associate</li>
-                    </ul>
-                </li>
-                <li class="portfolio__experience--place">CompuCom
-                    <ul>
-                        <li class="portfolio__experience--description">SE Analyst</li>
-                    </ul>
-                </li>
-            </ol>
-        </div>
-    <!-- Education -->
-        <div class="portfolio__education">The things I know
+        <!-- Education -->
+        <div class="portfolio__education" id="anchor-education">
+            <h3>The things I know and the ones I´m learning</h3>
             <section class="portfolio__education--section">
                 <p class="portfolio__education--institution">Colegio Nacional de Matemáticas (2014)</p>
                 <p class="portfolio__education--title">Advanced Math from basis to calculus certified</p>
@@ -99,7 +136,8 @@
             </section>
             <section class="portfolio__education--section">
                 <p class="portfolio__education--institution">IBM (2022)</p>
-                <p class="portfolio__education--title">Introduction to Web Development in the cloud with HTML, CSS and JavaScript</p>
+                <p class="portfolio__education--title">Introduction to Web Development in the cloud with HTML, CSS and
+                    JavaScript</p>
             </section>
             <section class="portfolio__education--section">
                 <p class="portfolio__education--institution">UVM (2022)</p>
@@ -115,9 +153,32 @@
                 <p class="portfolio__education--title--component">Backend Development [Pending on starting date]</p>
             </section>
         </div>
-        
-    <!-- projects -->
-        <div class="portfolio__projects"> Things I've built
+
+        <!-- Experience -->
+        <div class="portfolio__experience" id="anchor-experience">
+            <ol class="portfolio__experience--ol">
+                <h3 class="portfolio__experience--title">The place I've worked on</h3>
+                <li class="portfolio__experience--place">Private teacher
+                    <ul>
+                        <li class="portfolio__experience--description">Math teacher from high school to university</li>
+                    </ul>
+                </li>
+                <li class="portfolio__experience--place">Amazon
+                    <ul>
+                        <li class="portfolio__experience--description">VCS Bilingual Associate</li>
+                    </ul>
+                </li>
+                <li class="portfolio__experience--place">CompuCom
+                    <ul>
+                        <li class="portfolio__experience--description">SE Analyst</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <!-- projects -->
+        <div class="portfolio__projects" id="anchor-projects"> 
+            <h3 class="portfolio__projects--title">The things I've built</h3>
             <section class="portfolio__projects--section">1st proyect
                 <p class="portfolio__projects--section">Description</p>
             </section>
@@ -125,17 +186,29 @@
                 <p class="portfolio__projects--section">Description</p>
             </section>
         </div>
+        <!-- End of main start of header -->
+    </main>
     <!-- Contact -->
-        <div class="portfolio__contact">Contact
-            <a href="mailto:okami97.backdev@hotmail.com" class="portfolio__contact--text">Send the mail</a>
-            <a href="tel:+525540699907" class="portfolio__contact--text">Do the call</a>
-            <a href="http://www.linkedin.com/in/okami97backdev" target="_blank" rel="noopener noreferrer" class="portfolio__contact--text"></a>
-            <p class="portfolio__contact--text">Mexico city, CDMX.</p>
-            <p class="portfolio__contact--text">Nov/28/1997</p>
-        </div>
-    
+    <footer class="portfolio__contact" id="anchor-contact">
+        <h3 class="portfolio__contact--title">Lets stay in touch, I´ll keep growing and I want you to be there to see it :)</h3>
+        <a href="mailto:okami97.backdev@hotmail.com" class="portfolio__contact--text">Send the mail</a>
+        <a href="tel:+525540699907" class="portfolio__contact--text">Do the call</a>
+        <a href="http://www.linkedin.com/in/okami97backdev" target="_blank" rel="noopener noreferrer"
+            class="portfolio__contact--text">Linkedin</a>
+    </footer>
+
 
 </body>
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="css\styles.css">
+<!-- Personal JS -->
+<script src="main.js"></script>
+<!-- BootStrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- BootStrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+<!-- SASS / CSS -->
+<link rel="stylesheet" href="css\styles.css">
+
 </html>

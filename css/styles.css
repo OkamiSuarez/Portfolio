@@ -3,10 +3,16 @@ body {
   color: white;
 }
 
-.portfolio__titles {
+header {
   display: flex;
+  position: -webkit-sticky;
+  position: sticky;
 }
-.portfolio__titles .portfolio__titles--img {
+header .portfolio__titles--img {
   height: 10rem;
   width: 10rem;
+}
+
+main {
+  background-color: rgb(34, 34, 33);
 }/*# sourceMappingURL=styles.css.map */
