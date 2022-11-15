@@ -1,0 +1,29 @@
+// Sintaxis
+
+// @mixin name {
+//     property: value;
+//     property: value;
+//     ...
+//   }
+
+// ejemplo
+
+// @mixin important-text {
+//   color: red;
+//   font-size: 25px;
+//   font-weight: bold;
+//   border: 1px solid blue;
+// }
+
+// para importar 
+
+// selector {
+//     @include mixin-name;
+//   }
+
+// ejemplo
+
+//   .danger {
+//     @include important-text;
+//     background-color: green;
+//   }

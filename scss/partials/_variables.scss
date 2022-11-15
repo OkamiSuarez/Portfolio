@@ -1,0 +1,22 @@
+// Sintaxis
+
+// $variablename: value;
+
+// ejemplo
+
+// $myFont: Helvetica, sans-serif;
+// $myColor: red;
+// $myFontSize: 18px;
+// $myWidth: 680px;
+
+// al importar
+
+// body {
+//   font-family: $myFont;
+//   font-size: $myFontSize;
+//   color: $myColor;
+// }
+
+// #container {
+//   width: $myWidth;
+// }
