@@ -5,7 +5,57 @@ header {
 }
 header .portfolio__titles--img {
   height: 10rem;
-  width: 10rem;
+  width: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  * {
+    background-color: pink;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  * {
+    background-color: red;
+  }
+  .portfolio__welcome .portfolio__welcome--text--h2 {
+    text-align: center;
+  }
+  .portfolio__welcome .portfolio__welcome--text--h3 {
+    text-align: center;
+  }
+  .portfolio__welcome .portfolio__welcome--img {
+    width: 70rem;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  * {
+    background-color: yellow;
+  }
+}
+.portfolio__welcome {
+  background-color: yellow;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 1rem 0rem 1rem 1rem;
+  padding: 1rem 0rem 1rem 1rem;
+}
+.portfolio__welcome .portfolio__welcome--text--h2 {
+  color: black;
+  text-align: end;
+  font-size: 4rem;
+  padding-right: 1rem;
+}
+.portfolio__welcome .portfolio__welcome--text--h3 {
+  color: rgb(136, 84, 84);
+  font-size: 3rem;
+  text-align: start;
+  padding-right: 1rem;
+}
+.portfolio__welcome .portfolio__welcome--img {
+  width: 40rem;
+  height: auto;
 }
 
 * {
@@ -19,16 +69,4 @@ body {
 
 main {
   background-color: rgb(133, 133, 124);
-}
-main .portfolio__welcome {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 2rem auto;
-  background-color: rgb(22, 58, 58);
-}
-main .portfolio__welcome .breakpoints {
-  width: auto;
-  height: 50rem;
-  padding: 20rem auto;
 }

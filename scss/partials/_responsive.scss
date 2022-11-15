@@ -1,0 +1,29 @@
+// tablet 
+@media only screen and (min-width: 768px) {
+    *{
+        background-color: pink;
+    }
+}
+// tablet landscape 
+@media only screen and (min-width: 1024px) {
+    *{
+        background-color: red;
+    }
+    .portfolio__welcome{
+        .portfolio__welcome--text--h2{
+            text-align: center;
+        }
+        .portfolio__welcome--text--h3{
+            text-align: center;
+        }
+        .portfolio__welcome--img{
+            width: 70rem;
+        }
+    }
+}
+// laptop and desktop
+@media only screen and (min-width: 1600px) {
+    *{
+        background-color: yellow;
+    }
+}
