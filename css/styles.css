@@ -1,8 +1,3 @@
-body {
-  background-color: black;
-  color: white;
-}
-
 header {
   display: flex;
   position: -webkit-sticky;
@@ -11,6 +6,15 @@ header {
 header .portfolio__titles--img {
   height: 10rem;
   width: 10rem;
+}
+
+* {
+  font-family: "Mukta", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
 }
 
 main {
@@ -27,4 +31,4 @@ main .portfolio__welcome .breakpoints {
   width: auto;
   height: 50rem;
   padding: 20rem auto;
-}/*# sourceMappingURL=styles.css.map */
+}

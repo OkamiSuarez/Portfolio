@@ -1,16 +1,15 @@
+@import 'partials/_header.scss';
+
+*{
+    font-family: 'Mukta', sans-serif;
+}
+
+
 body{
     background-color: black;
     color: white;
 }
-header{
-    display: flex;
-    position: sticky;
-    // Arreglar esta parte, tiene que ir bajando con el contenido
-    .portfolio__titles--img{
-        height: 10rem;
-        width: 10rem;
-    }
-  }
+
 main{
 background-color: rgb(133, 133, 124);
 
