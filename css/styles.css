@@ -1,30 +1,24 @@
 header {
   display: flex;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  background-color: black;
 }
-header .portfolio__titles--img {
-  height: 10rem;
-  width: auto;
+header .portfolio__titles--nav {
+  background-color: rgb(97, 102, 106);
+  margin: 1rem 1rem 1rem 1rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 480px) {
   * {
     background-color: pink;
+    display: none;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   * {
     background-color: red;
-  }
-  .portfolio__welcome .portfolio__welcome--text--h2 {
-    text-align: center;
-  }
-  .portfolio__welcome .portfolio__welcome--text--h3 {
-    text-align: center;
-  }
-  .portfolio__welcome .portfolio__welcome--img {
-    width: 70rem;
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -38,7 +32,7 @@ header .portfolio__titles--img {
   align-items: flex-end;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin: 1rem 0rem 1rem 1rem;
+  margin: 15rem 0rem 1rem 1rem;
   padding: 1rem 0rem 1rem 1rem;
 }
 .portfolio__welcome .portfolio__welcome--text--h2 {

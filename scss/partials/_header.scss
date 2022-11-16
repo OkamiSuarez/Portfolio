@@ -1,9 +1,12 @@
 header{
     display: flex;
-    position: sticky;
-    // Arreglar esta parte, tiene que ir bajando con el contenido
-    .portfolio__titles--img{
-        height: 10rem;
-        width: auto;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    background-color: black;
+    .portfolio__titles--nav{
+        background-color: rgb(97, 102, 106);
+        margin: 1rem 1rem 1rem 1rem;
+        
     }
 }
