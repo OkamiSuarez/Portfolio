@@ -21,6 +21,13 @@ header .portfolio__titles--nav .nav-pills .portfolio__titles--name {
   font-size: 1rem;
 }
 
+.portfolio__aboutMe {
+  background-color: rgba(63, 177, 82, 0.509);
+}
+.portfolio__aboutMe .portfolio__aboutMe--title {
+  background-color: aqua;
+}
+
 @media only screen and (min-width: 480px) {
   * {
     background-color: pink;
@@ -38,25 +45,22 @@ header .portfolio__titles--nav .nav-pills .portfolio__titles--name {
   }
 }
 .portfolio__welcome {
-  background-color: yellow;
   display: flex;
-  align-items: flex-end;
   flex-direction: column;
   flex-wrap: nowrap;
-  margin: 15rem 0rem 1rem 1rem;
-  padding: 1rem 0rem 1rem 1rem;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 .portfolio__welcome .portfolio__welcome--text--h2 {
-  color: black;
-  text-align: end;
   font-size: 3rem;
-  padding-right: 1rem;
+  padding-bottom: 2rem;
+  color: black;
+  font-size: 3rem;
 }
 .portfolio__welcome .portfolio__welcome--text--h3 {
-  color: rgb(136, 84, 84);
   font-size: 2rem;
-  text-align: start;
-  padding-right: 1rem;
+  padding-bottom: 1rem;
+  color: rgb(136, 84, 84);
+  text-align: center;
 }
 
 * {

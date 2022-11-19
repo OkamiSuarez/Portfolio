@@ -1,22 +1,14 @@
 .portfolio__welcome{
-    background-color: yellow;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin: 15rem 0rem 1rem 1rem;
-    padding: 1rem 0rem 1rem 1rem;
+    @include textContainer;
     .portfolio__welcome--text--h2{
+        @include title-port;
         color: black;
-        text-align: end;
         font-size: 3rem;
-        padding-right: 1rem;
     }
     .portfolio__welcome--text--h3{
+        @include text-port;
         color: rgb(136, 84, 84);
-        font-size: 2rem;
-        text-align: start;
-        padding-right: 1rem;
+        text-align: center;
     }
 }
 
