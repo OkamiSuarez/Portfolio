@@ -22,22 +22,28 @@
   flex-wrap: nowrap;
   flex-direction: row;
   background-color: rgba(207, 193, 193, 0.146);
-  padding: 0rem 0.5rem 0rem 0.5rem;
+  padding: 0.5rem 0.5rem 0rem 0.5rem;
+  color: rgb(122, 95, 228);
 }
-.portfolio__titles--nav--div .portfolio__titles--nav--div--dropdown {
-  position: fixed;
+.portfolio__titles--nav--div .portfolio__titles--nav--div--dropdown a {
+  color: rgb(141, 128, 195);
 }
 .portfolio__titles--nav--div .portfolio__titles--nav--div--h2 {
-  font-size: 1.2rem;
-}
-.portfolio__titles--nav--div .portfolio__titles--nav--div--h3 {
   font-size: 1rem;
 }
+.portfolio__titles--nav--div .portfolio__titles--nav--div--h3 {
+  font-size: 0.8rem;
+}
 .portfolio__titles--nav--div .portfolio__titles--nav--div--dropdown {
-  background-color: rgb(49, 78, 104);
+  width: 6.5rem;
 }
 .portfolio__titles--nav--div .portfolio__titles--nav--div--btn-header {
   border-radius: 2rem;
+  font-size: 1.2rem;
+  width: 3rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-color: rgb(73, 122, 0);
 }
 .portfolio__titles--nav--div .portfolio__titles--nav--div--sidebar--desktop {
   display: none;
@@ -52,7 +58,7 @@
 .portfolio__welcome .portfolio__welcome--text--h2 {
   font-size: 2.5rem;
   padding-bottom: 2rem;
-  margin: 3.5rem 2rem 1rem 2rem;
+  margin: 1rem 2rem 1rem 2rem;
   text-align: justify;
 }
 .portfolio__welcome .portfolio__welcome--text--h3 {
@@ -70,7 +76,7 @@
 .portfolio__aboutMe .portfolio__aboutMe--title {
   font-size: 2.5rem;
   padding-bottom: 2rem;
-  margin: 3.5rem 2rem 1rem 2rem;
+  margin: 1rem 2rem 1rem 2rem;
   text-align: justify;
 }
 .portfolio__aboutMe .portfolio__aboutMe--info {
