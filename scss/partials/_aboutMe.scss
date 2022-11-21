@@ -1,7 +1,18 @@
 .portfolio__aboutMe{
-    // @include rightContainer;
-    background-color: rgba(63, 177, 82, 0.509);
+    @include textContainer;
     .portfolio__aboutMe--title{
-        background-color: aqua;
+        @include title-port;
+    }
+    .portfolio__aboutMe--info{
+        @include text-port;
+        .portfolio__aboutMe--text1{
+        padding-left: 5rem;
+        }
+        .portfolio__aboutMe--text2{
+        padding: 0 2rem 0 2rem;
+        }
+        .portfolio__aboutMe--text3{
+            padding-right: 5rem;
+        }
     }
 }

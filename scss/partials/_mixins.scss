@@ -23,13 +23,15 @@
 };
 
 @mixin title-port {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-bottom: 2rem;
+    margin: 2rem 2rem 1rem 2rem;
+    text-align: justify;
 };
 
 @mixin text-port {
-    font-size: 2rem;
-    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: justify;
 }
 
 // para importar 

@@ -1,22 +1,14 @@
-header{
-    display: none;
-    position: fixed;
-    width: 100%;
-    top: 0%;
+.portfolio__titles--nav{
+    display: flex;
     background-color: rgb(0, 0, 0);
-    .portfolio__titles--nav{
+    .portfolio__titles--nav--div{
         background-color: rgba(207, 193, 193, 0.146);
-        margin: 1rem 1rem 1rem 1rem;
-        .nav-pills{
-            display: flex;
-            flex-wrap: nowrap;
-            flex-direction: row;
-            align-content: center;
-            justify-content: center;
-            align-items: center;
-            .portfolio__titles--name{
-                font-size: 1rem;
-            }
+        margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+        .portfolio__titles--nav--div--h2{
+            font-size: 1.2rem;
+        }
+        .portfolio__titles--nav--div--h3{
+            font-size: 1rem;
         }
     }
 }

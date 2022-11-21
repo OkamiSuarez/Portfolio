@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GOSV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
 
 </head>
 
@@ -17,15 +17,21 @@
     <header class="portfolio__titles">
         <!-- Titles  -->
         <nav class="portfolio__titles--nav">
-            <!-- Bootstrap Navs -->
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <div class="container-fluid">
-                        <h1 class="portfolio__titles--name">Guimi Okami Suárez Valdivia</h1>
-                        <h2 class="portfolio__titles--work">SE Analyst / Web Developer</h2>
-                    </div>
-                </li>
-                        <li class="nav-item dropdown">
+            <!-- Navs -->
+            <div class="portfolio__titles--nav--div">
+                <h2 class="portfolio__titles--nav--div--h2">Guimi Okami Suárez Valdivia</h2>
+                <h3 class="portfolio__titles--nav--div--h3">SE Analyst / Web Developer</h3>
+                <!-- Meter aqui el dropdown -->
+                <div class="portfolio__titles--nav--div--dropdown">
+                    <label for="contents">Contents</label>
+
+                    <span class="portfolio__titles--nav--dropdown--contents">Contents</span>
+                </div>
+                <button class="btn-header" type="button" onclick="downloadCV()">Download CV</button>
+            </div>
+            <!-- <ul class="nav nav-pills">
+
+                    <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                         aria-expanded="false">Contents</a>
                     <ul class="dropdown-menu">
@@ -41,10 +47,7 @@
                         <li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <button class="btn btn-outline-success me-2" type="button" onclick="downloadCV()">Download CV</button>
-                </li>
-            </ul>
+            </ul> -->
         </nav>
     </header>
     <!-- end of header start of main -->
@@ -60,17 +63,15 @@
         <div class="portfolio__aboutMe" id="anchor-aboutMe">
             <h3 class="portfolio__aboutMe--title">A little bit about me, who I am and what I've achieved</h3>
             <article class="portfolio__aboutMe--info">
-                <p class="portfolio__aboutMe--text">Living in Mexico I studied a bachelor on Sports Science and I have been an athlete
+                <p class="portfolio__aboutMe--text1">Living in Mexico I studied a bachelor on Sports Science and I have been an athlete
                     for
                     about 8 years. I have learned most of my values from sports and I have been living accordingly every
                     day.</p>
-                <p class="portfolio__aboutMe--text">Teamwork is one of the fastest ways to achieve a task, but
+                <p class="portfolio__aboutMe--text2">Teamwork is one of the fastest ways to achieve a task, but
                     independently, self-teaching, discipline and efficient work are the attitudes that inspire others to
                     get
                     a better job done.</p>
-                <p class="portfolio__aboutMe--text">Right now, I want to specialize in backend development by working
-                    with
-                    Javascript, Sql & Java. To me, programming has been one of the most exciting things I have ever
+                <p class="portfolio__aboutMe--text3">To me, being a developer is one of the most exciting things I have ever
                     learned;
                     growing up I found inspiring seeing all those people who has helped improve our lives through
                     programming. That is what I am willing to work for.</p>
@@ -190,7 +191,7 @@
                 <p class="portfolio__projects--section">Description</p>
             </section>
         </div>
-        <!-- End of main start of header -->
+        <!-- End of main start of footer -->
     </main>
     <!-- Contact -->
     <footer class="portfolio__contact" id="anchor-contact">
@@ -205,13 +206,6 @@
 </body>
 <!-- Personal JS -->
 <script src="main.js"></script>
-<!-- BootStrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-<!-- BootStrap JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
 <!-- SASS / CSS -->
 <link rel="stylesheet" href="css\styles.css">
 

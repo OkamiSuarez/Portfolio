@@ -2,13 +2,10 @@
     @include textContainer;
     .portfolio__welcome--text--h2{
         @include title-port;
-        color: black;
-        font-size: 3rem;
     }
     .portfolio__welcome--text--h3{
         @include text-port;
-        color: rgb(136, 84, 84);
-        text-align: center;
+        padding-right: 13rem;
     }
 }
 

@@ -1,33 +1,3 @@
-header {
-  display: none;
-  position: fixed;
-  width: 100%;
-  top: 0%;
-  background-color: rgb(0, 0, 0);
-}
-header .portfolio__titles--nav {
-  background-color: rgba(207, 193, 193, 0.146);
-  margin: 1rem 1rem 1rem 1rem;
-}
-header .portfolio__titles--nav .nav-pills {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-}
-header .portfolio__titles--nav .nav-pills .portfolio__titles--name {
-  font-size: 1rem;
-}
-
-.portfolio__aboutMe {
-  background-color: rgba(63, 177, 82, 0.509);
-}
-.portfolio__aboutMe .portfolio__aboutMe--title {
-  background-color: aqua;
-}
-
 @media only screen and (min-width: 480px) {
   * {
     background-color: pink;
@@ -44,6 +14,21 @@ header .portfolio__titles--nav .nav-pills .portfolio__titles--name {
     background-color: yellow;
   }
 }
+.portfolio__titles--nav {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+}
+.portfolio__titles--nav .portfolio__titles--nav--div {
+  background-color: rgba(207, 193, 193, 0.146);
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.portfolio__titles--nav .portfolio__titles--nav--div .portfolio__titles--nav--div--h2 {
+  font-size: 1.2rem;
+}
+.portfolio__titles--nav .portfolio__titles--nav--div .portfolio__titles--nav--div--h3 {
+  font-size: 1rem;
+}
+
 .portfolio__welcome {
   display: flex;
   flex-direction: column;
@@ -51,16 +36,69 @@ header .portfolio__titles--nav .nav-pills .portfolio__titles--name {
   margin: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 .portfolio__welcome .portfolio__welcome--text--h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-bottom: 2rem;
-  color: black;
-  font-size: 3rem;
+  margin: 2rem 2rem 1rem 2rem;
+  text-align: justify;
 }
 .portfolio__welcome .portfolio__welcome--text--h3 {
-  font-size: 2rem;
-  padding-bottom: 1rem;
-  color: rgb(136, 84, 84);
-  text-align: center;
+  font-size: 1.5rem;
+  text-align: justify;
+  padding-right: 13rem;
+}
+
+.portfolio__aboutMe {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.portfolio__aboutMe .portfolio__aboutMe--title {
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+  margin: 2rem 2rem 1rem 2rem;
+  text-align: justify;
+}
+.portfolio__aboutMe .portfolio__aboutMe--info {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+.portfolio__aboutMe .portfolio__aboutMe--info .portfolio__aboutMe--text1 {
+  padding-left: 5rem;
+}
+.portfolio__aboutMe .portfolio__aboutMe--info .portfolio__aboutMe--text2 {
+  padding: 0 2rem 0 2rem;
+}
+.portfolio__aboutMe .portfolio__aboutMe--info .portfolio__aboutMe--text3 {
+  padding-right: 5rem;
+}
+
+.portfolio__activities {
+  background-color: green;
+}
+
+.portfolio__activities {
+  background-color: green;
+}
+
+.portfolio__foreignLanguages {
+  background-color: rgb(77, 34, 146);
+}
+
+.portfolio__education {
+  background-color: rgb(160, 0, 141);
+}
+
+.portfolio__experience {
+  background-color: rgb(101, 81, 0);
+}
+
+.portfolio__projects {
+  background-color: rgb(184, 86, 0);
+}
+
+.portfolio__contact {
+  background-color: rgb(215, 183, 0);
 }
 
 * {
