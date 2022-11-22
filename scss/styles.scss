@@ -1,4 +1,4 @@
-@import 'partials/_mixins.scss', 'partials/_responsive.scss', 'partials/_header.scss', 'partials/_welcome.scss', 'partials/_aboutMe.scss', 'partials/_activities.scss', 'partials/_activities.scss', 'partials/_languages.scss', 'partials/_education.scss', 'partials/_experience.scss', 'partials/_projects.scss', 'partials/_footer.scss';
+@import 'partials/_mixins.scss', 'partials/_background.scss', 'partials/_responsive.scss', 'partials/_header.scss', 'partials/_welcome.scss', 'partials/_aboutMe.scss', 'partials/_activities.scss', 'partials/_activities.scss', 'partials/_languages.scss', 'partials/_education.scss', 'partials/_experience.scss', 'partials/_projects.scss', 'partials/_footer.scss';
 
 *{
     font-family: 'Mukta', sans-serif;
@@ -9,10 +9,10 @@
 
 
 body{
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(169, 176, 236);
 }
 
 main{
-background-color: rgb(133, 133, 124);
+background-color: rgb(0, 0, 0);
 }

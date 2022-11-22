@@ -1,11 +1,17 @@
 .portfolio__welcome{
     @include textContainer;
-    .portfolio__welcome--text--h2{
+    .portfolio__welcome--text--h2--1{
+        @include title-port;
+    }
+    .portfolio__welcome--text--h2--2{
         @include title-port;
     }
     .portfolio__welcome--text--h3{
         @include text-port;
         padding-right: 13rem;
+    }
+    .portfolio__welcome--text--h2--responsive{
+        display: none;
     }
 }
 
