@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/44f9b0b47a.js" crossorigin="anonymous"></script>
     <!-- Bootrstrap CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
@@ -27,7 +29,9 @@
                     
                     <ul class="nav nav-pills">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Portfolio contents</a>
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                                <i class="fa-solid fa-bars"></i>
+                            </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#anchor-welcome">Welcome</a></li>
                                     <li><a class="dropdown-item" href="#anchor-aboutMe">About Me</a></li>
@@ -60,7 +64,7 @@
                 <h2 class="portfolio__titles--nav--div--h2">Okami Suárez</h2>
                 <h3 class="portfolio__titles--nav--div--h3">SE Analyst / Web Developer</h3>
 
-                <button class="portfolio__titles--nav--div--btn-header" type="button" onclick="downloadCV()">Download CV</button>
+                <button class="portfolio__titles--nav--div--btn-header" type="button" onclick="downloadCV()"><i class="fa-sharp fa-solid fa-download"></i> CV</button>
             </div>
         </nav>
     </header>
@@ -74,9 +78,9 @@
         </section>
         <!-- Welcome -->
         <div class="portfolio__welcome" id="anchor-welcome">
-            <h2 class="portfolio__welcome--text--h2--1">Hey :) Nice to meet you, I hope you are having a great day
+            <h2 class="portfolio__welcome--text--h2--1"> Hey :) Nice to meet you, I hope you are having a great day
             </h2>
-            <h2 class="portfolio__welcome--text--h2--2">I'm Okami Suarez, a commited developer student and a sales opertations analyst hardworker, but we can talk about that later.
+            <h2 class="portfolio__welcome--text--h2--2">I'm Okami Suarez, a commited developer student and a hardworker sales opertations analyst, but we can talk about that later.
             </h2>
             <h2 class="portfolio__welcome--text--h2--responsive">Hey :) Nice to meet you, I'm Okami and I hope you are having a great
                 day
@@ -102,24 +106,39 @@
             </article>
         </div>
         <!-- Activities -->
-        <div class="portfolio__activities" id="anchor-activities">
+        <article class="portfolio__activities" id="anchor-activities">
             <ul class="portfolio__activities--ul">
                 <h3 class="portfolio__activities--title">The things I love to do</h3>
-                <li class="portfolio__activities--li">Sports practice (volleyball, table tennis, swimming, GYM)</li>
-                <li class="portfolio__activities--li">Videogames</li>
-                <li class="portfolio__activities--li">Self learning</li>
-                <li class="portfolio__activities--li">Problem solving</li>
+                <div class="portfolio__activities--li--div" id="anchor-activities">
+                    <li class="portfolio__activities--li--r">
+                        Sports practice (volleyball, table tennis, swimming, GYM)
+                        <img src="imgs\portfolio_vb.jpg" alt="playing volleyball" class="portfolio__activities--li--r--img">
+                    </li>
+                    <li class="portfolio__activities--li--l">
+                        Videogames
+                        <img src="imgs\portfolio_vb.jpg" alt="playing volleyball" class="portfolio__activities--li--l--img">
+                    </li>
+                    <li class="portfolio__activities--li--r">Self learning
+                        <img src="imgs\portfolio_vb.jpg" alt="playing volleyball" class="portfolio__activities--li--r--img">
+                    </li>
+                    <li class="portfolio__activities--li--l">
+                        Problem solving
+                        <img src="imgs\portfolio_vb.jpg" alt="playing volleyball" class="portfolio__activities--li--l--img">
+                    </li>
+                </div>
             </ul>
-        </div>
+        </article>
         <!-- Foreign Languages -->
         <div class="portfolio__foreignLanguages" id="anchor-languages">
             <h3 class="portfolio__foreignLanguages--title">The languages I speak</h3>
-            <ul class="portfolio__foreignLanguages--languageTitle">Spanish
-                <li class="portfolio__foreignLanguages--li">Native</li>
-            </ul>
-            <ul class="portfolio__foreignLanguages--languageTitle">English
-                <li class="portfolio__foreignLanguages--li">Fluent</li>
-            </ul>
+            <div class="portfolio__foreignLanguages--container">
+                <ul class="portfolio__foreignLanguages--languageTitle">Spanish
+                    <li class="portfolio__foreignLanguages--li">Native</li>
+                </ul>
+                <ul class="portfolio__foreignLanguages--languageTitle">English
+                    <li class="portfolio__foreignLanguages--li">Fluent</li>
+                </ul>
+            </div>
         </div>
         <!-- Education -->
         <div class="portfolio__education" id="anchor-education">

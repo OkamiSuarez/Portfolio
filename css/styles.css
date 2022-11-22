@@ -99,7 +99,7 @@ html {
   justify-content: space-between;
   align-content: center;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
   background-color: rgba(171, 171, 171, 0.604);
   padding: 0.5rem 0.5rem 0rem 0.5rem;
@@ -115,7 +115,6 @@ html {
 }
 .portfolio__titles--nav--div .portfolio__titles--nav--div--dropdown {
   width: 6.5rem;
-  padding-bottom: 0.2rem;
 }
 .portfolio__titles--nav--div .portfolio__titles--nav--div--dropdown a {
   color: rgb(0, 0, 0);
@@ -123,7 +122,7 @@ html {
 .portfolio__titles--nav--div .portfolio__titles--nav--div--btn-header {
   border-radius: 2rem;
   font-size: 1.2rem;
-  width: 9rem;
+  width: 5rem;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   border-color: rgb(73, 122, 0);
@@ -153,7 +152,7 @@ html {
 .portfolio__welcome .portfolio__welcome--text--h3 {
   font-size: 1.5rem;
   text-align: justify;
-  padding-right: 13rem;
+  padding-right: 7.5rem;
 }
 .portfolio__welcome .portfolio__welcome--text--h2--responsive {
   display: none;
@@ -185,16 +184,126 @@ html {
   padding-right: 5rem;
 }
 
-.portfolio__activities {
-  background-color: green;
+.portfolio__activities .portfolio__activities--ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding-left: 0;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--title {
+  font-size: 2rem;
+  text-align: center;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: 1.5rem;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r .portfolio__activities--li--r--img {
+  height: auto;
+  width: 8rem;
+  padding-right: 1rem;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: 1.5rem;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l .portfolio__activities--li--l--img {
+  height: auto;
+  width: 8rem;
+  padding-left: 1rem;
 }
 
-.portfolio__activities {
-  background-color: green;
+.portfolio__activities .portfolio__activities--ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding-left: 0;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--title {
+  font-size: 2rem;
+  text-align: center;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: 1.5rem;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r .portfolio__activities--li--r--img {
+  height: auto;
+  width: 8rem;
+  padding-right: 1rem;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: 1.5rem;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l .portfolio__activities--li--l--img {
+  height: auto;
+  width: 8rem;
+  padding-left: 1rem;
 }
 
 .portfolio__foreignLanguages {
-  background-color: rgb(77, 34, 146);
+  padding: auto;
+}
+.portfolio__foreignLanguages .portfolio__foreignLanguages--title {
+  font-size: 2rem;
+  text-align: center;
+}
+.portfolio__foreignLanguages .portfolio__foreignLanguages--container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding-left: 0;
+  justify-content: space-around;
+}
+.portfolio__foreignLanguages .portfolio__foreignLanguages--container .portfolio__foreignLanguages--languageTitle {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.portfolio__foreignLanguages .portfolio__foreignLanguages--container .portfolio__foreignLanguages--li {
+  font-size: 1rem;
+  display: block;
 }
 
 .portfolio__education {

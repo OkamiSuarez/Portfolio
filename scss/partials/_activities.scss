@@ -1,3 +1,47 @@
 .portfolio__activities{
-    background-color: green;
+    .portfolio__activities--ul{
+        @include listContainer;
+        .portfolio__activities--title{
+        @include title-list;
+        }
+        .portfolio__activities--li--div{
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+            flex-direction: column;
+            .portfolio__activities--li--r{
+                @include listImgText;
+                .portfolio__activities--li--r--img{
+                    height: auto;
+                    width: 8rem;
+                    padding-right: 1rem;
+                }
+            }
+            .portfolio__activities--li--l{
+                @include listTextImg;
+                .portfolio__activities--li--l--img{
+                    height: auto;
+                    width: 8rem;
+                    padding-left: 1rem;
+                }
+            }
+        }
+    }
 }
+
+// .portfolio__welcome{
+//     @include textContainer;
+//     .portfolio__welcome--text--h2--1{
+//         @include title-port;
+//     }
+//     .portfolio__welcome--text--h2--2{
+//         @include title-port;
+//     }
+//     .portfolio__welcome--text--h3{
+//         @include text-port;
+//         padding-right: 7.5rem;
+//     }
+//     .portfolio__welcome--text--h2--responsive{
+//         display: none;
+//     }
+// }

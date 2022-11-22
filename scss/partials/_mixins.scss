@@ -32,7 +32,54 @@
 @mixin text-port {
     font-size: 1.5rem;
     text-align: justify;
-}
+};
+
+@mixin listContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding-left: 0;
+};
+
+@mixin title-list {
+    font-size: 2rem;
+    text-align: center;
+};
+
+@mixin listImgText {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+};
+
+@mixin listTextImg {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.5rem;
+};
+
+@mixin listContainerLanguages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding-left: 0;
+    justify-content: space-around;
+};
+
+
+
 
 // para importar 
 
