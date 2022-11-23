@@ -86,7 +86,21 @@
     align-items: center;
 };
 
+@mixin educationContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0.5rem 2rem 0.5rem;
+    padding-left: 0;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+};
 
+@mixin textCard {
+    font-size: 1.2rem;
+    text-align: center;
+}
 
 
 // para importar 

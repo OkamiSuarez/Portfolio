@@ -1,3 +1,16 @@
 .portfolio__education{
-    background-color: rgb(160, 0, 141);
+    @include educationContainer;
+    .portfolio__education--h3{
+        @include title-port;
+    }
+    .portfolio__education--section{
+        @include textCard;
+        h5{
+            font-size: 1.7rem;
+            color: rgb(0, 0, 0);
+        }
+        p{
+            color: rgb(0, 0, 0);
+        }
+    }
 }

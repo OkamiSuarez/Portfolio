@@ -1,10 +1,14 @@
 .portfolio__experience{
-    background-color: rgb(101, 81, 0);
+    padding-bottom: 2rem;
     .portfolio__experience--title{
-        text-align: center;
+        @include title-list
     }
     .portfolio__experience--container{
         @include experienceContainer;
         // Hay que checar aqui por que al abrir el bootstrap se ensancha
+        .accordion{
+            width: 25rem;
+            border: solid rgba(255, 255, 255, 0.561);
+        }
     }
 }
