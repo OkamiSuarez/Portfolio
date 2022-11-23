@@ -1,3 +1,10 @@
 .portfolio__experience{
     background-color: rgb(101, 81, 0);
+    .portfolio__experience--title{
+        text-align: center;
+    }
+    .portfolio__experience--container{
+        @include experienceContainer;
+        // Hay que checar aqui por que al abrir el bootstrap se ensancha
+    }
 }

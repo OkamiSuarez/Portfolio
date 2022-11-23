@@ -313,6 +313,16 @@ html {
 .portfolio__experience {
   background-color: rgb(101, 81, 0);
 }
+.portfolio__experience .portfolio__experience--title {
+  text-align: center;
+}
+.portfolio__experience .portfolio__experience--container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
 .portfolio__projects {
   background-color: rgb(184, 86, 0);
