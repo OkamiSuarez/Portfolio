@@ -205,31 +205,44 @@ html {
   display: flex;
   text-align: center;
   justify-content: space-evenly;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row-reverse;
   align-items: center;
   padding: 1rem 1rem 1rem 1rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
-.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r .portfolio__activities--li--r--img {
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r .portfolio__activities--li--r--img--vb {
   height: auto;
-  width: 8rem;
+  width: 18rem;
+  border-radius: 4rem;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r .portfolio__activities--li--r--img--self {
+  height: 15rem;
+  width: auto;
   padding-right: 1rem;
+  border-radius: 2rem;
 }
 .portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l {
   display: flex;
   text-align: center;
   justify-content: space-evenly;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   padding: 1rem 1rem 1rem 1rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
-.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l .portfolio__activities--li--l--img {
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l .portfolio__activities--li--l--img--games {
+  height: 11rem;
+  width: auto;
+  padding-right: 1rem;
+  border-radius: 4rem;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l .portfolio__activities--li--l--img--problem {
   height: auto;
-  width: 8rem;
-  padding-left: 1rem;
+  width: 24rem;
+  padding-right: 1rem;
+  border-radius: 5rem;
 }
 
 .portfolio__activities .portfolio__activities--ul {
@@ -253,31 +266,44 @@ html {
   display: flex;
   text-align: center;
   justify-content: space-evenly;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row-reverse;
   align-items: center;
   padding: 1rem 1rem 1rem 1rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
-.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r .portfolio__activities--li--r--img {
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r .portfolio__activities--li--r--img--vb {
   height: auto;
-  width: 8rem;
+  width: 18rem;
+  border-radius: 4rem;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r .portfolio__activities--li--r--img--self {
+  height: 15rem;
+  width: auto;
   padding-right: 1rem;
+  border-radius: 2rem;
 }
 .portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l {
   display: flex;
   text-align: center;
   justify-content: space-evenly;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   padding: 1rem 1rem 1rem 1rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
-.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l .portfolio__activities--li--l--img {
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l .portfolio__activities--li--l--img--games {
+  height: 11rem;
+  width: auto;
+  padding-right: 1rem;
+  border-radius: 4rem;
+}
+.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l .portfolio__activities--li--l--img--problem {
   height: auto;
-  width: 8rem;
-  padding-left: 1rem;
+  width: 24rem;
+  padding-right: 1rem;
+  border-radius: 5rem;
 }
 
 .portfolio__foreignLanguages {
@@ -374,4 +400,8 @@ body {
 
 main {
   background-color: rgb(0, 0, 0);
+}
+main .secondBackground {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 82, 141) 100%);
 }

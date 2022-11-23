@@ -51,22 +51,22 @@
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row-reverse;
     align-items: center;
     padding: 1rem 1rem 1rem 1rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 };
 
 @mixin listTextImg {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     padding: 1rem 1rem 1rem 1rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 };
 
 @mixin listContainerLanguages {

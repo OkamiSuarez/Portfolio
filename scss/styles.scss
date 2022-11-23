@@ -14,4 +14,8 @@ body{
 
 main{
 background-color: rgb(0, 0, 0);
+    .secondBackground{
+        background: rgb(2,0,36);
+        background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 82, 141) 100%);
+    }
 }

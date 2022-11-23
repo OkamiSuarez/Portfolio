@@ -11,18 +11,32 @@
             flex-direction: column;
             .portfolio__activities--li--r{
                 @include listImgText;
-                .portfolio__activities--li--r--img{
+                .portfolio__activities--li--r--img--vb{
                     height: auto;
-                    width: 8rem;
-                    padding-right: 1rem;
+                    width: 18rem;
+                    border-radius: 4rem;
                 }
+                .portfolio__activities--li--r--img--self{
+                    height: 15rem;
+                    width: auto;
+                    padding-right: 1rem;
+                    border-radius: 2rem;
+                }
+
             }
             .portfolio__activities--li--l{
                 @include listTextImg;
-                .portfolio__activities--li--l--img{
+                .portfolio__activities--li--l--img--games{
+                    height: 11rem;
+                    width: auto;
+                    padding-right: 1rem;
+                    border-radius: 4rem
+                }
+                .portfolio__activities--li--l--img--problem{
                     height: auto;
-                    width: 8rem;
-                    padding-left: 1rem;
+                    width: 24rem;
+                    padding-right: 1rem;
+                    border-radius: 5rem;
                 }
             }
         }
