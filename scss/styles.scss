@@ -16,6 +16,10 @@ main{
 background-color: rgb(0, 0, 0);
     .secondBackground{
         background: rgb(2,0,36);
-        background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 82, 141) 100%);
+        background: linear-gradient(180deg, rgb(0, 0, 0) 0%, #0039a6 100%);
+    }
+    .thirdBackground{
+        background: rgb(255, 255, 255);
+        background: linear-gradient(180deg, #0039a6 0%, #ffffff 100%);
     }
 }
