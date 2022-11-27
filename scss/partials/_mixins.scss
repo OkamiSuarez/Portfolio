@@ -110,6 +110,21 @@
     color: #000;
 };
 
+@mixin footerContainer{
+    margin: 2rem 0.5rem 2rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: solid white;
+};
+
+@mixin anchorFooter {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: rgb(0, 128, 109);
+}
+
 
 // para importar 
 

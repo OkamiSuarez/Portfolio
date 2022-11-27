@@ -367,6 +367,7 @@ html {
   font-size: 2rem;
   text-align: center;
   color: rgb(215, 215, 215);
+  padding-bottom: 1rem;
 }
 .portfolio__experience .portfolio__experience--container {
   display: flex;
@@ -394,6 +395,11 @@ html {
   flex-wrap: nowrap;
   color: #000;
 }
+.portfolio__projects .portfolio__projects--title {
+  font-size: 2rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+}
 .portfolio__projects .carrouselContainer {
   width: 95%;
   height: auto;
@@ -402,8 +408,26 @@ html {
   padding: 1rem 1rem 1rem 5rem;
 }
 
-.portfolio__contact {
-  background-color: rgb(215, 183, 0);
+footer .portfolio__contact--container {
+  margin: 2rem 0.5rem 2rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: solid white;
+}
+footer .portfolio__contact--container .portfolio__contact--title {
+  font-size: 2rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+}
+footer .portfolio__contact--container a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: rgb(0, 128, 109);
+}
+footer .portfolio__contact--container a i {
+  padding-left: 1.5rem;
 }
 
 * {

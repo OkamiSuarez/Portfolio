@@ -3,6 +3,7 @@
     .portfolio__experience--title{
         @include title-list;
         color: rgb(215, 215, 215);
+        padding-bottom: 1rem;
     }
     .portfolio__experience--container{
         @include experienceContainer;

@@ -1,3 +1,15 @@
-.portfolio__contact{
-    background-color: rgb(215, 183, 0);
-}
+footer{
+    .portfolio__contact--container{
+        @include footerContainer;
+        .portfolio__contact--title{
+            @include title-list;
+            color: rgba(0, 0, 0, 0.85);
+        }
+        a{
+            @include anchorFooter;
+            i{
+                padding-left: 1.5rem;
+            }
+        }
+    }
+};

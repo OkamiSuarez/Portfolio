@@ -1,5 +1,9 @@
 .portfolio__projects{
     @include projectsContainer;
+    .portfolio__projects--title{
+        @include title-list;
+        color: rgba(0, 0, 0, 0.85);
+    }
     .carrouselContainer{
         width: 95%;
         height: auto;
