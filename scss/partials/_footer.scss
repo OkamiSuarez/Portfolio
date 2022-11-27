@@ -1,4 +1,6 @@
 footer{
+    background-color: white;
+    border: solid white;
     .portfolio__contact--container{
         @include footerContainer;
         .portfolio__contact--title{
