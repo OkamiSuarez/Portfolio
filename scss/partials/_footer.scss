@@ -1,6 +1,7 @@
 footer{
-    background-color: white;
-    border: solid white;
+    background-color: #3a901b;
+    border: solid #3a901b;
+    margin-top: -0.1rem;
     .portfolio__contact--container{
         @include footerContainer;
         .portfolio__contact--title{

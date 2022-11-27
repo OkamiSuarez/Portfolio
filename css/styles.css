@@ -409,8 +409,9 @@ html {
 }
 
 footer {
-  background-color: white;
-  border: solid white;
+  background-color: #3a901b;
+  border: solid #3a901b;
+  margin-top: -0.1rem;
 }
 footer .portfolio__contact--container {
   margin: 2rem 0.5rem 2rem 0.5rem;
@@ -426,7 +427,7 @@ footer .portfolio__contact--container .portfolio__contact--title {
 footer .portfolio__contact--container a {
   font-size: 2.5rem;
   text-decoration: none;
-  color: rgb(0, 128, 109);
+  color: rgb(135, 245, 226);
 }
 footer .portfolio__contact--container a i {
   padding-left: 1.5rem;
@@ -451,6 +452,6 @@ main .secondBackground {
   background: linear-gradient(180deg, rgb(0, 0, 0) 0%, #0039a6 100%);
 }
 main .thirdBackground {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(180deg, #0039a6 0%, #ffffff 100%);
+  background: #3a901b;
+  background: linear-gradient(180deg, #0039a6 0%, #3a901b 100%);
 }
