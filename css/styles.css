@@ -335,7 +335,7 @@ html {
 .portfolio__education {
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem 0.5rem 2rem 0.5rem;
+  margin: 2rem 0.5rem -0.1rem 0.5rem;
   padding-left: 0;
   align-content: center;
   align-items: center;
@@ -361,11 +361,12 @@ html {
 }
 
 .portfolio__experience {
-  padding-bottom: 2rem;
+  padding: 2rem 0 2rem 0;
 }
 .portfolio__experience .portfolio__experience--title {
   font-size: 2rem;
   text-align: center;
+  color: rgb(215, 215, 215);
 }
 .portfolio__experience .portfolio__experience--container {
   display: flex;
@@ -376,11 +377,29 @@ html {
 }
 .portfolio__experience .portfolio__experience--container .accordion {
   width: 25rem;
-  border: solid rgba(255, 255, 255, 0.561);
+}
+.portfolio__experience .portfolio__experience--container .accordion button {
+  background: rgba(0, 0, 0, 0.916);
+  color: rgb(215, 215, 215);
+}
+.portfolio__experience .portfolio__experience--container .accordion .accordion-body {
+  color: rgba(0, 0, 0, 0.916);
+  background: rgb(215, 215, 215);
 }
 
 .portfolio__projects {
-  background-color: rgb(184, 86, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  color: #000;
+}
+.portfolio__projects .carrouselContainer {
+  width: 95%;
+  height: auto;
+}
+.portfolio__projects .carrouselContainer .projectCard {
+  padding: 1rem 1rem 1rem 5rem;
 }
 
 .portfolio__contact {

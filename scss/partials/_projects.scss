@@ -1,3 +1,10 @@
 .portfolio__projects{
-    background-color: rgb(184, 86, 0);
+    @include projectsContainer;
+    .carrouselContainer{
+        width: 95%;
+        height: auto;
+        .projectCard{
+            padding: 1rem 1rem 1rem 5rem;
+        }
+    }
 }
