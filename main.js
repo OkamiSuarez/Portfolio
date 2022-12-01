@@ -34,6 +34,78 @@ function formButton(){
         }
 };
 
+
+function changeText(id){
+
+    switch (id) {
+        case 1:
+            let openedUnamButton = document.getElementById('openedUnamButton')
+            if (openedUnamButton) {
+                openedUnamButton.disabled = true;
+                setTimeout(function(){
+                    openedUnamButton.disabled = false;
+                }, 500);
+                openedUnamButton.innerHTML = "More Info";
+                openedUnamButton.id = "unamButton"
+            } else {
+                let unamInfo = document.getElementById('unamButton');
+                unamInfo.disabled = true;
+                setTimeout(function(){
+                    unamInfo.disabled = false;
+                }, 3000);
+                unamInfo.innerHTML = "Close";
+                unamInfo.id = "openedUnamButton";
+            }
+            break;
+
+        case 2:
+            let openedCodeAButton = document.getElementById('openedCodeAButton')
+            if (openedCodeAButton) {
+                openedCodeAButton.disabled = true;
+                setTimeout(function(){
+                    openedCodeAButton.disabled = false;
+                }, 500);
+                openedCodeAButton.innerHTML = "More Info";
+                openedCodeAButton.id = "codeAButton"
+            } else {
+                let codeAInfo = document.getElementById('codeAButton');
+                codeAInfo.disabled = true;
+                setTimeout(function(){
+                    codeAInfo.disabled = false;
+                }, 6000);
+                codeAInfo.innerHTML = "Close";
+                codeAInfo.id = "openedCodeAButton";
+
+            }
+            break;
+
+        case 3:
+            let openedCoderHButton = document.getElementById('openedCoderHButton')
+            if (openedCoderHButton) {
+                openedCoderHButton.disabled = true;
+                setTimeout(function(){
+                    openedCoderHButton.disabled = false;
+                }, 500);
+                openedCoderHButton.innerHTML = "More Info";
+                openedCoderHButton.id = "coderHButton"
+            } else {
+                let coderHButton = document.getElementById('coderHButton');
+                coderHButton.disabled = true;
+                setTimeout(function(){
+                    coderHButton.disabled = false;
+                }, 2500);
+                coderHButton.innerHTML = "Close";
+                coderHButton.id = "openedCoderHButton";
+            }
+            break;
+
+        default: alert("posible error");
+            break;
+    }
+};
+
+
+
 // function createForm(formVar){
 //     let formDesign = document.createElement(`div`);
 //     formDesign.id = "pruebaDeId";
