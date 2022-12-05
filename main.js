@@ -103,13 +103,3 @@ function changeText(id){
             break;
     }
 };
-
-
-
-// function createForm(formVar){
-//     let formDesign = document.createElement(`div`);
-//     formDesign.id = "pruebaDeId";
-//     formDesign.classList.add('pruebaDeClass');
-//     formDesign.innerHTML = 'infoinfoinfo';
-//     formVar.appendChild(formDesign);
-// }

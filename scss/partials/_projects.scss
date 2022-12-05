@@ -2,13 +2,15 @@
     @include projectsContainer;
     .portfolio__projects--title{
         @include title-list;
-        color: rgba(0, 0, 0, 0.85);
+        color: rgb(215, 215, 215);
     }
     .carrouselContainer{
-        width: 95%;
+        width: 100%;
         height: auto;
         .projectCard{
-            padding: 1rem 1rem 1rem 5rem;
+            display: flex;
+            padding: 1rem 0rem 1rem 0rem;
+            justify-content: center;
         }
     }
 }
