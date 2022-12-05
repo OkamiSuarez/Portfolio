@@ -2,8 +2,17 @@ footer{
     background-color: #3a901b;
     border: solid #3a901b;
     margin-top: -0.1rem;
+    #mailButton{
+        width: 50%;
+        height: auto;
+        font-size: 2rem;
+        border-radius: 2rem;
+    }
     .portfolio__contact--container--formContainer{
         display: none;
+        .mailGreeting{
+            @include greetings-port;           
+        }
     }
     .portfolio__contact--container{
         @include footerContainer;
@@ -17,5 +26,51 @@ footer{
         a{
             @include anchorFooter;
         }
+        #alterMail{
+            display: none;
+        }
     }
+
+    .jsForm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .field {
+            margin-bottom: 1rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .field label {
+        display: flex;
+        justify-content: center;
+        font-size: 1.7rem;
+        color: rgb(237, 237, 237);
+        }
+        
+        .formTextArea{
+            height: 5rem;
+            border-radius: 1rem !important;
+        }
+
+        .field input {
+        min-width: 25rem;
+        line-height: 2;
+        font-size: 1.2rem;
+        border-radius: 3rem;
+        text-align: center;
+        background-color: rgba(151, 250, 184, 0.608);
+        }
+        
+
+        input[type="submit"] {
+        width: 50%;
+        padding: 0.2rem 1.2rem;
+        font-size: 1.3rem;
+        // background-color: #7bfffd;
+        color: rgb(0, 0, 0);
+        border-radius: 3rem;
+        }
+    }
+
 };

@@ -122,7 +122,13 @@
     font-size: 2.5rem;
     text-decoration: none;
     color: rgb(135, 245, 226);
-}
+};
+
+@mixin greetings-port {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+};
 
 
 // para importar 

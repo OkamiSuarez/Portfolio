@@ -10,6 +10,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <!-- MailJS script -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+    emailjs.init('tMyN94Uf-KIc08SpC')
+    </script>
     <!-- font awesome  -->
     <script src="https://kit.fontawesome.com/44f9b0b47a.js" crossorigin="anonymous"></script>
     <!-- Bootrstrap CSS only -->
@@ -510,25 +517,33 @@
         <div class="portfolio__contact--container">
             <h3 class="portfolio__contact--title">Lets stay in touch, I´ll keep growing and I want you to be there to see it
                 :)</h3>
+
+
+
                 <!-- Form -->
                 <div class="portfolio__contact--container--formContainer" id="contactFormContainer">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <!-- MailJS -->
+                    <form class="jsForm" id="form">
+                        <div class="field">
+                            <label for="email_id">Please provide your email</label>
+                            <input type="email" name="email_id" id="email_id" required>
                         </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div class="field">
+                            <label for="from_name">Your name</label>
+                            <input type="text" name="from_name" id="from_name" required>
                         </div>
-                        <button type="submit" class="btn btn-primary">I'm in</button>
+                        <div class="field">
+                            <label for="message">Your message</label>
+                            <input type="text" name="message" class="formTextArea" id="message" required>
+                        </div>
+
+                            <input type="submit" class="btn btn-info" id="button" value="Send Email">
                     </form>
                 </div>
             <!-- Buttons -->
             <button type="button" class="btn btn-info" id="mailButton" onclick="formButton();">Easy mail<i class="fa-solid fa-envelope-open-text"></i></button>
             <!-- links -->
-            <a href="mailto:okami97.backdev@hotmail.com" class="portfolio__contact--text">Send the mail<i class="fa-solid fa-envelope-open-text"></i></a>
+            <a href="mailto:okami97.backdev@hotmail.com" class="portfolio__contact--text" id="alterMail">Send another mail<i class="fa-solid fa-envelope-open-text"></i></a>
             <a href="tel:+525540699907" class="portfolio__contact--text">Do the call<i class="fa-solid fa-phone-volume"></i></a>
             <a href="http://www.linkedin.com/in/okami97backdev" target="_blank" rel="noopener noreferrer"
                 class="portfolio__contact--text">Discover<i class="fa-brands fa-linkedin"></i></a>
@@ -541,6 +556,8 @@
     crossorigin="anonymous"></script>
 <!-- Personal JS -->
 <script src="main.js"></script>
+<!-- Sweet Alert -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <!-- SASS / CSS -->
 <link rel="stylesheet" href="css\styles.css">
 

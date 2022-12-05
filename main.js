@@ -13,7 +13,7 @@ function formButton(){
             form.innerHTML = ('Close');
             form.id = "openedMailButton";
             form.style.transition = "2s"
-            form.style.backgroundColor = "rgb(255, 0, 0)"
+            form.style.backgroundColor = "rgba(0, 0, 0, 0.85)"
             form.style.color = "rgb(255, 255, 255)"
             form.style.border = "rgb(255, 0, 0)"
             // Aquí se mete cambio de display de form
@@ -25,11 +25,8 @@ function formButton(){
             // Aquí se mete cambio de display de form
             formContainer.style.display = "none";
             openedForm.style.color = "rgb(0, 0, 0)"
-            openedForm.style.backgroundColor = "#0dcaf0"
-
-            
-        }
-        else {
+            openedForm.style.backgroundColor = "#0dcaf0"            
+        } else {
             alert('id missmatch found')
         }
 };
@@ -103,3 +100,44 @@ function changeText(id){
             break;
     }
 };
+
+// mailJS
+
+const btn = document.getElementById('button');
+
+document.getElementById('form')
+    .addEventListener('submit', function(event) {
+        event.preventDefault();
+
+    btn.value = 'Sending...';
+
+    const serviceID = 'default_service';
+    const templateID = 'template_lpecokh';
+
+    emailjs.sendForm(serviceID, templateID, this)
+            .then(() => {
+            btn.value = 'Email sent succesfully';
+            let formJS = document.getElementById('form');
+            formJS.style.display = 'none';
+            let openedForm = document.getElementById('openedMailButton');
+            openedForm.style.display = 'none'; 
+            let containerGreeting = document.getElementById('contactFormContainer');
+            const greetingForm = document.createElement("p");
+            greetingForm.innerText = 'Mail has been sent succesfully, thank you so much and I hope you enjoyed this portfolio';
+            greetingForm.className = 'mailGreeting';
+            containerGreeting.appendChild(greetingForm);
+            let alternativeMail = document.getElementById('alterMail');
+            alternativeMail.style.display = 'block'; 
+            Swal.fire({
+                title: 'Mail sent!',
+                text: 'Thanks for being in touch.',
+                imageUrl: 'https://www.nexgoal.com/wp-content/uploads/2018/05/BlueprintSuccess-1.png',
+                imageWidth: 400,
+                imageHeight: 200,
+                imageAlt: 'image of the word success',
+                });
+            }, (err) => {
+        btn.value = 'Send Email';
+        alert(JSON.stringify(err));
+    });
+});

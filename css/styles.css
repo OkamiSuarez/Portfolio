@@ -409,8 +409,19 @@ footer {
   border: solid #3a901b;
   margin-top: -0.1rem;
 }
+footer #mailButton {
+  width: 50%;
+  height: auto;
+  font-size: 2rem;
+  border-radius: 2rem;
+}
 footer .portfolio__contact--container--formContainer {
   display: none;
+}
+footer .portfolio__contact--container--formContainer .mailGreeting {
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 footer .portfolio__contact--container {
   margin: 2rem 0.5rem 2rem 0.5rem;
@@ -431,6 +442,44 @@ footer .portfolio__contact--container a {
   font-size: 2.5rem;
   text-decoration: none;
   color: rgb(135, 245, 226);
+}
+footer .portfolio__contact--container #alterMail {
+  display: none;
+}
+footer .jsForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .jsForm .field {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+footer .jsForm .field label {
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  color: rgb(237, 237, 237);
+}
+footer .jsForm .formTextArea {
+  height: 5rem;
+  border-radius: 1rem !important;
+}
+footer .jsForm .field input {
+  min-width: 25rem;
+  line-height: 2;
+  font-size: 1.2rem;
+  border-radius: 3rem;
+  text-align: center;
+  background-color: rgba(151, 250, 184, 0.608);
+}
+footer .jsForm input[type=submit] {
+  width: 50%;
+  padding: 0.2rem 1.2rem;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  border-radius: 3rem;
 }
 
 * {
