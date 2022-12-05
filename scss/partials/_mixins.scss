@@ -1,20 +1,12 @@
-// Sintaxis
-
-// @mixin name {
-//     property: value;
-//     property: value;
-//     ...
-//   }
-
-// ejemplo
-
-// @mixin important-text {
-//   color: red;
-//   font-size: 25px;
-//   font-weight: bold;
-//   border: 1px solid blue;
-// }
-
+@mixin navDivContainer {
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(171, 171, 171, 0.604);
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    color: rgb(122, 95, 228);
+}
 @mixin textContainer {
     display: flex;
     flex-direction: column;

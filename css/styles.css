@@ -95,14 +95,12 @@ html {
   }
 }
 .portfolio__titles--nav--div {
+  height: 40%;
   display: flex;
   justify-content: space-between;
-  align-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  flex-direction: row;
   background-color: rgba(171, 171, 171, 0.604);
-  padding: 0.5rem 0.5rem 0rem 0.5rem;
+  padding: 1rem 0.5rem 1rem 0.5rem;
   color: rgb(122, 95, 228);
 }
 .portfolio__titles--nav--div .portfolio__titles--nav--div--h2 {
@@ -121,8 +119,9 @@ html {
 }
 .portfolio__titles--nav--div .portfolio__titles--nav--div--btn-header {
   border-radius: 2rem;
-  font-size: 1.2rem;
-  width: 5rem;
+  font-size: 1.5rem;
+  width: 25%;
+  height: auto;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   border-color: rgb(73, 122, 0);
