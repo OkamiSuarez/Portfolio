@@ -46,8 +46,9 @@
     flex-wrap: wrap;
     flex-direction: row-reverse;
     align-items: center;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 2rem 1rem;
     font-size: 1.8rem;
+    gap: 2rem;
 };
 
 @mixin listTextImg {
@@ -57,8 +58,9 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 2rem 1rem;
     font-size: 1.8rem;
+    gap: 2rem;
 };
 
 @mixin listContainerLanguages {
@@ -84,14 +86,11 @@
 @mixin textCard {
     font-size: 1.2rem;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 @mixin experienceContainer{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    padding: 1rem 1rem 2rem 1rem;
 };
 
 @mixin projectsContainer{
