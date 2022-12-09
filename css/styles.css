@@ -355,8 +355,8 @@ html {
   padding: 1rem 1rem 2rem 1rem;
 }
 .portfolio__experience .portfolio__experience--container .accordion button {
-  background: rgb(128, 128, 128);
-  color: rgb(24, 46, 74);
+  background: rgb(107, 107, 107);
+  color: rgb(255, 255, 255);
   font-size: 1.2rem;
 }
 .portfolio__experience .portfolio__experience--container .accordion .accordion-body {
@@ -387,6 +387,23 @@ html {
   display: flex;
   padding: 1rem 0rem 1rem 0rem;
   justify-content: center;
+}
+.portfolio__projects .carrouselContainer .projectCard .projectImgContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.portfolio__projects .carrouselContainer .projectCard .projectImgContainer img {
+  width: 99%;
+  height: auto;
+  border-radius: 1rem;
+}
+.portfolio__projects .carrouselContainer .projectCard .modal-body {
+  text-align: justify;
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 1.1rem;
 }
 
 footer {

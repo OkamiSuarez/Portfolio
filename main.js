@@ -1,7 +1,32 @@
 // document.body.style.backgroundColor = 'black';
 // document.body.style.color = 'black';
 function downloadCV() {
-    alert('Downloading')
+    document.getElementsByTagName("BODY")[0].style.pointerEvents = "none";
+    let timerInterval
+    Swal.fire({
+        
+        title: 'In process!',
+        html: 'You will be redirected to the resume',
+        timer: 3000,
+        timerProgressBar: true,
+        didOpen: () => {
+            Swal.showLoading()
+            const b = Swal.getHtmlContainer().querySelector('b')
+            timerInterval = setInterval(() => {
+                b.textContent = Swal.getTimerLeft()
+        }, 100)
+        },
+        willClose: () => {
+        clearInterval(timerInterval)
+    }
+    }).then((result) => {
+        window.open('https://drive.google.com/file/d/1GaKC-c76Fjk0ktzn3Lf9jpyz7Uz0Xe5c/view?usp=share_link');
+        document.getElementsByTagName("BODY")[0].style.pointerEvents = "auto";
+    if (result.dismiss === Swal.DismissReason.timer) {
+        console.log('I was closed by the timer')
+    }
+    })
+
 };
 
 function formButton(){

@@ -11,6 +11,23 @@
             display: flex;
             padding: 1rem 0rem 1rem 0rem;
             justify-content: center;
+            .projectImgContainer{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                img{
+                    width: 99%;
+                    height: auto;
+                    border-radius: 1rem;
+                }
+            }
+            .modal-body{
+                text-align: justify;
+                padding: 1rem 2rem 1rem 2rem;
+                font-size: 1.1rem;
+            }
         }
     }
 }
