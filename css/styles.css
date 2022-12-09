@@ -338,6 +338,12 @@ html {
 .portfolio__education .portfolio__education--section p {
   color: rgb(0, 0, 0);
 }
+.portfolio__education .portfolio__education--section #collapseUnam {
+  margin-bottom: 1rem;
+}
+.portfolio__education .portfolio__education--section #collapseCodeacademy {
+  margin-bottom: 1rem;
+}
 .portfolio__education .portfolio__education--section #collapseCoderhouse {
   margin-bottom: 1rem;
 }
