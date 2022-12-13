@@ -3,10 +3,10 @@ footer{
     border: solid #3a901b;
     margin-top: -0.1rem;
     #mailButton{
-        width: 50%;
+        width: 70%;
         height: auto;
-        font-size: 2rem;
-        border-radius: 2rem;
+        font-size: 1.8rem;
+        border-radius: 1rem;
     }
     .portfolio__contact--container--formContainer{
         display: none;
@@ -54,12 +54,12 @@ footer{
         }
 
         .field input {
-        min-width: 25rem;
+        min-width: 90%;
         line-height: 2;
         font-size: 1.2rem;
         border-radius: 3rem;
         text-align: center;
-        background-color: rgba(151, 250, 184, 0.608);
+        background-color: rgba(179, 247, 202, 0.928);
         }
         
 
