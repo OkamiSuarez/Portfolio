@@ -6,14 +6,10 @@
     .portfolio__foreignLanguages--container{
         @include listContainerLanguages;
         .portfolio__foreignLanguages--languageTitle{
-            text-align: center;
-            font-size: 1.5rem;
-            margin-bottom: 0;
-            padding-left: 0;
+            @include languageTitle;
         }
         .portfolio__foreignLanguages--li{
-            font-size: 1rem;
-            display: block;
+            @include languageLi;
         }
     }
 }

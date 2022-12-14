@@ -1,22 +1,48 @@
-// tablet 
-@media only screen and (min-width: 480px) {
+// Mobile
+@media only screen and (max-width: 480px) {
     *{
         background-color: pink;
         display: none;
     }
 }
+// tablet 
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    // *{
+    //     display: none;
+    // }
+    .portfolio__aboutMe--text1{
+        margin-bottom: 4rem;
+    }
+    .portfolio__aboutMe--text2{
+        padding-bottom: 3rem;
+    }
+    .portfolio__foreignLanguages--languageTitle{
+        font-size: 5rem;
+    }
+    .portfolio__foreignLanguages--li{
+        font-size: 7rem;
+        display: block;
+    }
+}
 // tablet landscape 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     *{
+        display: none;
         background-color: red;
     }
 }
 // laptop 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1600px) {
+    *{
+        display: none;
+        background-color: blue;
+    }
+
 }
 // Desktop
 @media only screen and (min-width: 1600px) {
     *{
+        display: none;
         background-color: yellow;
     }
 }
