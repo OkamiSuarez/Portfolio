@@ -1,17 +1,40 @@
 @mixin navDivContainer {
     height: 40%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: rgba(171, 171, 171, 0.604);
     padding: 1rem 0.5rem 1rem 0.5rem;
     color: rgb(122, 95, 228);
-}
+    @media only screen and (min-width: 480px){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0.5rem 1rem 0.5rem;
+        display: flex;
+        background-color: rgba(171, 171, 171, 0.604);
+        color: rgb(0, 0, 0);
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+};
 @mixin textContainer {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+};
+
+@mixin title-port-underline {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    margin: 1rem 2rem 1rem 2rem;
+    text-align: justify;
+    text-decoration: underline;
+    @media only screen and (min-width: 480px) and (max-width: 768px){
+        font-size: 4rem;
+        margin: 1rem 1rem 3rem 1rem;
+    }
 };
 
 @mixin title-port {
@@ -129,6 +152,9 @@
     font-size: 1.2rem;
     text-align: center;
     margin-bottom: 2rem;
+    @media only screen and (min-width: 480px) and (max-width: 768px){
+        font-size: 2rem;
+    }
 }
 
 @mixin experienceContainer{

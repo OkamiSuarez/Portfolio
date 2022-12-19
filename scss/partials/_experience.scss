@@ -1,25 +1,27 @@
 .portfolio__experience{
     padding: 1rem 1rem 2rem 1rem;
-    .portfolio__experience--title{
-        @include title-list;
-        color: rgb(215, 215, 215);
-        padding-bottom: 1rem;
-    }
-    .portfolio__experience--container{
-        @include experienceContainer;
-        .accordion{
-            button{
-                background: rgb(107, 107, 107);
-                color: rgb(255, 255, 255);
-                font-size: 1.2rem;
-            }
-            .accordion-body{
-                color: rgba(0, 0, 0, 0.916);
-                text-align: justify;
-            }
-            .accordion-item{
-                border: solid 1px black;
-            }
+}
+.portfolio__experience--title{
+    @include title-list;
+    color: rgb(215, 215, 215);
+    padding-bottom: 1rem;
+}
+.portfolio__experience--container{
+    @include experienceContainer;
+}
+.portfolio__experience--container{
+    .accordion{
+        button{
+            background: rgb(107, 107, 107);
+            color: rgb(255, 255, 255);
+            font-size: 1.2rem;
+        }
+        .accordion-body{
+            color: rgba(0, 0, 0, 0.916);
+            text-align: justify;
+        }
+        .accordion-item{
+            border: solid 1px black;
         }
     }
 }

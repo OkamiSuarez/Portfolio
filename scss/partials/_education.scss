@@ -1,25 +1,37 @@
 .portfolio__education{
     @include educationContainer;
-    .portfolio__education--h3{
-        @include title-port;
+}
+.portfolio__education--h3{
+    @include title-port-underline;
+}
+.portfolio__education--section{
+    @include textCard;
+}
+.portfolio__education--section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .card{
+        width: 85%;
     }
-    .portfolio__education--section{
-        @include textCard;
-        h5{
-            font-size: 1.7rem;
-            color: rgb(0, 0, 0);
-        }
-        p{
-            color: rgb(0, 0, 0);
-        }
-        #collapseUnam{
-            margin-bottom: 1rem;
-        }
-        #collapseCodeacademy{
-            margin-bottom: 1rem;
-        }
-        #collapseCoderhouse{
-            margin-bottom: 1rem;
-        }
+    h5{
+        font-size: 1.7rem;
+        color: rgb(0, 0, 0);
+    }
+    p{
+        color: rgb(0, 0, 0);
+    }
+    #collapseUnam{
+        margin-bottom: 1rem;
+    }
+    #collapseCodeacademy{
+        margin-bottom: 1rem;
+    }
+    #collapseCoderhouse{
+        margin-bottom: 1rem;
+    }
+    #innerInfo{
+        width: 100%;
     }
 }
+

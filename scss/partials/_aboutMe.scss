@@ -1,7 +1,7 @@
 .portfolio__aboutMe{
     @include textContainer;
     .portfolio__aboutMe--title{
-        @include title-port;
+        @include title-port-underline;
     }
     .portfolio__aboutMe--info{
         @include text-port;

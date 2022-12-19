@@ -1,15 +1,52 @@
 // Mobile
 @media only screen and (max-width: 480px) {
     *{
-        background-color: pink;
-        display: none;
+        background-color: rgba(255, 192, 203, 0.148);
     }
 }
 // tablet 
-@media only screen and (min-width: 480px) and (max-width: 768px){
+@media only screen and (min-width: 480px){
     // *{
     //     display: none;
     // }
+
+    // Header
+.portfolio__titles--nav--div{
+    .portfolio__titles--nav--div--title{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .portfolio__titles--nav--div--h2{
+            font-size: 3rem;
+        }
+        .portfolio__titles--nav--div--h3{
+            font-size: 3rem;
+        }
+    }
+    .portfolio__titles--nav--div--items--container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .portfolio__titles--nav--div--dropdown{
+            // background-color: rgb(49, 78, 104);
+            width: 50%;
+        }
+        .portfolio__titles--nav--div--dropdown a{
+            width: 21rem;
+            font-size: 2rem;
+        }
+        .portfolio__titles--nav--div--btn-header{
+            font-size: 2.2rem;
+            width: 35%;
+        }
+        .portfolio__titles--nav--div--sidebar--desktop{
+            display: none;
+            // esto es por que se usará para el responsive en desktop view 
+        }
+    }
+}
+
+    // About me
     .portfolio__aboutMe--text1{
         margin-bottom: 4rem;
     }
@@ -23,16 +60,37 @@
         font-size: 7rem;
         display: block;
     }
+    // Education
+    .portfolio__education--section{
+        .card-title{
+            font-size: 3.4rem;
+        }
+        .card-body p{
+            font-size: 2.2rem;
+        }
+        .btn{
+            font-size: 2rem;
+        }
+    }
+    // Experience
+    .portfolio__experience--container{
+        #experienceName{
+            font-size: 2.6rem;
+        }
+        .accordion-body{
+            font-size: 2rem;
+        }
+    }
 }
 // tablet landscape 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) {
     *{
         display: none;
         background-color: red;
     }
 }
 // laptop 
-@media only screen and (min-width: 1024px) and (max-width: 1600px) {
+@media only screen and (min-width: 1024px){
     *{
         display: none;
         background-color: blue;

@@ -32,50 +32,57 @@
         <nav class="portfolio__titles--nav">
             <!-- Navs -->
             <div class="portfolio__titles--nav--div">
-                <!-- Dropdown -->
-                <div class="portfolio__titles--nav--div--dropdown">
-                    <ul class="nav nav-pills">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">
-                                <i class="fa-solid fa-bars"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#anchor-welcome">Welcome</a></li>
-                                <li><a class="dropdown-item" href="#anchor-aboutMe">About Me</a></li>
-                                <li><a class="dropdown-item" href="#anchor-activities">The things I do</a></li>
-                                <li><a class="dropdown-item" href="#anchor-languages">Languages</a></li>
-                                <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#anchor-education">Education</a></li>
-                                <li><a class="dropdown-item" href="#anchor-experience">Experience</a></li>
-                                <li><a class="dropdown-item" href="#anchor-projects">Projects</a></li>
-                                <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#anchor-contact">Where you can find me</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+                <!-- Title -->
+                <div class="portfolio__titles--nav--div--title">
+                    <h2 class="portfolio__titles--nav--div--h2">Okami Suárez</h2>
+                    <h3 class="portfolio__titles--nav--div--h3">SE Analyst / Web Developer</h3>    
                 </div>
-                <!-- SideBar Desktop View -->
-                <div class="portfolio__titles--nav--div--sidebar--desktop">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both
-                        scrolling & backdrop</button>
-                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
-                        id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <p>Try scrolling the rest of the page to see this option in action</p>
+                <!-- Items container -->
+                <div class="portfolio__titles--nav--div--items--container">
+                    <!-- Dropdown -->
+                    <div class="portfolio__titles--nav--div--dropdown">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                    aria-expanded="false">
+                                    <i class="fa-solid fa-bars"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#anchor-welcome">Welcome</a></li>
+                                    <li><a class="dropdown-item" href="#anchor-aboutMe">About Me</a></li>
+                                    <li><a class="dropdown-item" href="#anchor-activities">The things I do</a></li>
+                                    <li><a class="dropdown-item" href="#anchor-languages">Languages</a></li>
+                                    <hr class="dropdown-divider">
+                                    <li><a class="dropdown-item" href="#anchor-education">Education</a></li>
+                                    <li><a class="dropdown-item" href="#anchor-experience">Experience</a></li>
+                                    <li><a class="dropdown-item" href="#anchor-projects">Projects</a></li>
+                                    <hr class="dropdown-divider">
+                                    <li><a class="dropdown-item" href="#anchor-contact">Where you can find me</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- SideBar Desktop View -->
+                    <div class="portfolio__titles--nav--div--sidebar--desktop">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both
+                            scrolling & backdrop</button>
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <p>Try scrolling the rest of the page to see this option in action</p>
+                            </div>
                         </div>
                     </div>
+                    <button class="portfolio__titles--nav--div--btn-header" type="button" onclick="downloadCV()"><i
+                            class="fa-sharp fa-solid fa-download"></i> CV</button>
+
                 </div>
-                <h2 class="portfolio__titles--nav--div--h2">Okami Suárez</h2>
-                <h3 class="portfolio__titles--nav--div--h3">SE Analyst / Web Developer</h3>
-                <button class="portfolio__titles--nav--div--btn-header" type="button" onclick="downloadCV()"><i
-                        class="fa-sharp fa-solid fa-download"></i> CV</button>
             </div>
         </nav>
     </header>
@@ -162,7 +169,7 @@
             <div class="portfolio__education" id="anchor-education">
                 <h3 class="portfolio__education--h3">The things I know and the ones I´m learning</h3>
                 <section class="portfolio__education--section">
-                    <div class="card text-bg-secondary mb-3" style="width: 18rem;">
+                    <div class="card text-bg-secondary mb-3">
                         <img src="https://www.conamat.com/hubfs/CONAMAT%202021%20LOGO%20A%20-%20COLOR.svg"
                             class="card-img-top" alt="CONAMAT Logo">
                         <div class="card-body">
@@ -172,7 +179,7 @@
                     </div>
                 </section>
                 <section class="portfolio__education--section">
-                    <div class="card text-bg-secondary mb-3" style="width: 18rem;">
+                    <div class="card text-bg-secondary mb-3">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Escudo-UNAM-escalable.svg/1200px-Escudo-UNAM-escalable.svg.png"
                             class="card-img-top" alt="UNAM Logo">
                         <div class="card-body">
@@ -180,7 +187,7 @@
                             <p class="card-text">-Mathematical physicist career area.</p>
                             <p class="card-text">-Programming technical career.</p>
                             <div class="collapse" id="collapseUnam">
-                                <div class="card card-body text-bg-light">
+                                <div class="card card-body text-bg-light" id="innerInfo">
                                     <p class="portfolio__education--title--component">-MS-DOS</p>
                                     <p class="portfolio__education--title--component">-Visual Basic</p>
                                     <p class="portfolio__education--title--component">-Intermediate Office Package</p>
@@ -198,7 +205,7 @@
                     </div>
                 </section>
                 <section class="portfolio__education--section">
-                    <div class="card text-bg-secondary mb-3" style="width: 18rem;">
+                    <div class="card text-bg-secondary mb-3">
                         <img src="https://i.pcmag.com/imagery/reviews/05XBKmNFYeHCMIn726Nohqb-10.fit_scale.size_760x427.v1627594235.png"
                             class="card-img-top" alt="CODEACADEMY Logo">
                         <div class="card-body">
@@ -206,7 +213,7 @@
                             <p class="card-text">-BI Dashboards with Power BI</p>
                             <p class="card-text">-Fullstack Career Path [In Progress]</p>
                             <div class="collapse" id="collapseCodeacademy">
-                                <div class="card card-body text-bg-light">
+                                <div class="card card-body text-bg-light" id="innerInfo">
                                     <p class="portfolio__education--title--component">-Learn HTML</p>
                                     <p class="portfolio__education--title--component">-Learn CSS Introduction</p>
                                     <p class="portfolio__education--title--component">-Learn CSS</p>
@@ -240,7 +247,7 @@
                     </div>
                 </section>
                 <section class="portfolio__education--section">
-                    <div class="card text-bg-secondary mb-3" style="width: 18rem;">
+                    <div class="card text-bg-secondary mb-3">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Seal_of_the_University_of_Michigan.svg/1200px-Seal_of_the_University_of_Michigan.svg.png"
                             class="card-img-top" alt="University of Michigan Logo">
                         <div class="card-body">
@@ -250,7 +257,7 @@
                     </div>
                 </section>
                 <section class="portfolio__education--section">
-                    <div class="card text-bg-secondary mb-3" style="width: 18rem;">
+                    <div class="card text-bg-secondary mb-3">
                         <img src="https://www.ibm.com/brand/experience-guides/developer/b1db1ae501d522a1a4b49613fe07c9f1/01_8-bar-positive.svg"
                             class="card-img-top" alt="IBM LOGO">
                         <div class="card-body">
@@ -261,7 +268,7 @@
                     </div>
                 </section>
                 <section class="portfolio__education--section">
-                    <div class="card text-bg-secondary mb-3" style="width: 18rem;">
+                    <div class="card text-bg-secondary mb-3">
                         <img src="https://www.fimpes.org.mx/images/universidades/uvm.jpg" class="card-img-top"
                             alt="UVM Logo">
                         <div class="card-body">
@@ -271,7 +278,7 @@
                     </div>
                 </section>
                 <section class="portfolio__education--section">
-                    <div class="card text-bg-secondary mb-3" style="width: 18rem;">
+                    <div class="card text-bg-secondary mb-3">
                         <img src="https://comparte-entity-photos.s3.us-east-2.amazonaws.com/39144702-7af9-45a6-8e18-3eb28648fa8a.png"
                             class="card-img-top" alt="Coderhouse Logo">
                         <div class="card-body">
@@ -280,7 +287,7 @@
                             <p class="card-text">-Product Management [Top 10].</p>
                             <p class="card-text">-Backend Career [In Progress].</p>
                             <div class="collapse" id="collapseCoderhouse">
-                                <div class="card card-body text-bg-light">
+                                <div class="card card-body text-bg-light" id="innerInfo">
                                     <p class="portfolio__education--title--component">-JavaScript [top 10]</p>
                                     <p class="portfolio__education--title--component">-SQL [In progress]</p>
                                     <p class="portfolio__education--title--component">-Backend Development [Pending on
@@ -311,7 +318,7 @@
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                    aria-controls="flush-collapseOne">
+                                    aria-controls="flush-collapseOne" id="experienceName">
                                     Math teacher - Private
                                 </button>
                             </h2>
@@ -328,7 +335,7 @@
                             <h2 class="accordion-header" id="flush-headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                    aria-controls="flush-collapseTwo">
+                                    aria-controls="flush-collapseTwo" id="experienceName">
                                     Amazon - VCS Billingual Associate
                                 </button>
                             </h2>
@@ -345,7 +352,7 @@
                             <h2 class="accordion-header" id="flush-headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                    aria-controls="flush-collapseThree">
+                                    aria-controls="flush-collapseThree" id="experienceName">
                                     CompuCom - SE Analyst
                                 </button>
                             </h2>
