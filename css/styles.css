@@ -59,15 +59,7 @@ html {
     transform: translateY(-2000px);
   }
 }
-@media only screen and (max-width: 480px) {
-  * {
-    background-color: rgba(255, 192, 203, 0.148);
-  }
-}
 @media only screen and (min-width: 480px) {
-  * {
-    background-color: rgba(255, 192, 203, 0.482);
-  }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title {
     display: flex;
     flex-direction: column;
@@ -140,9 +132,6 @@ html {
   }
 }
 @media only screen and (min-width: 768px) {
-  * {
-    background-color: rgba(255, 0, 0, 0);
-  }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h2 {
     font-size: 6rem;
   }
@@ -239,9 +228,6 @@ html {
   }
 }
 @media only screen and (min-width: 1024px) {
-  * {
-    background-color: blue;
-  }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h2 {
     font-size: 8rem;
   }
