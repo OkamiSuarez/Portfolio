@@ -377,7 +377,7 @@
                             <!-- JS Card -->
                             <div class="carousel-item active">
                                 <div class="projectCard">
-                                    <div class="card text-center" style="width: 18rem;">
+                                    <div class="card text-center">
                                         <div class="card-body">
                                             <h5 class="card-title">Scoop</h5>
                                                 <div class="projectImgContainer">
@@ -396,11 +396,11 @@
                                                 <div class="modal-dialog modal-dialog-centered">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Scoop</h1>
+                                                            <h1 class="modal-title" id="staticBackdropLabel">Scoop</h1>
                                                             <button type="button" class="btn-close"
                                                                 data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
-                                                        <div class="modal-body">
+                                                        <div class="modal-body" id="modalBodyText">
                                                             This project was developed with HTML, CSS and Javascript using local and session storage
                                                         </div>
                                                         <div class="modal-footer">
@@ -419,7 +419,7 @@
                             <!-- Web Development Card -->
                             <div class="carousel-item">
                                 <div class="projectCard">
-                                    <div class="card text-center" style="width: 18rem;">
+                                    <div class="card text-center">
                                         <div class="card-body">
                                             <h5 class="card-title">Wolves Team Sports Training</h5>
                                             <div class="projectImgContainer">
@@ -439,12 +439,12 @@
                                                 <div class="modal-dialog modal-dialog-centered">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                                                            <h1 class="modal-title" id="staticBackdropLabel">
                                                                 Wolves Team Sports Training </h1>
                                                             <button type="button" class="btn-close"
                                                                 data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
-                                                        <div class="modal-body">
+                                                        <div class="modal-body" id="modalBodyText">
                                                             This project was developed with HTML, CSS, SCSS, bootstrap, JS and responsive design
                                                         </div>
                                                         <div class="modal-footer">
@@ -463,7 +463,7 @@
                             <!-- PM Card -->
                             <div class="carousel-item">
                                 <div class="projectCard">
-                                    <div class="card text-center" style="width: 18rem;">
+                                    <div class="card text-center">
                                         <div class="card-body">
                                             <h5 class="card-title">WTST Product Management</h5>
                                             <div class="projectImgContainer">
@@ -483,12 +483,12 @@
                                                 <div class="modal-dialog modal-dialog-centered">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                                                            <h1 class="modal-title" id="staticBackdropLabel">
                                                                 Wolves Team Sports Training Product Management Proposal</h1>
                                                             <button type="button" class="btn-close"
                                                                 data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
-                                                        <div class="modal-body">
+                                                        <div class="modal-body" id="modalBodyText">
                                                             This work was created to analyze and propose a new web app that avoids certain common problems around the Mexican society focused on online training and home office workers
                                                         </div>
                                                         <div class="modal-footer">
@@ -505,7 +505,7 @@
                             <!-- SQL card -->
                             <div class="carousel-item">
                                 <div class="projectCard">
-                                    <div class="card text-center" style="width: 18rem;">
+                                    <div class="card text-center">
                                         <div class="card-body">
                                             <h5 class="card-title">WTST SQL Database [In progress]</h5>
                                             <div class="projectImgContainer">
@@ -525,12 +525,12 @@
                                                 <div class="modal-dialog modal-dialog-centered">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                                                            <h1 class="modal-title" id="staticBackdropLabel">
                                                                 Wolves Team Sports Training Database</h1>
                                                             <button type="button" class="btn-close"
                                                                 data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
-                                                        <div class="modal-body">
+                                                        <div class="modal-body" id="modalBodyText">
                                                             This project is being structured with MySQL workbench and tryes to support the online training platform that has been worked on since web development course
                                                         </div>
                                                         <div class="modal-footer">
@@ -547,14 +547,14 @@
                             <!-- Portfolio Card -->
                             <div class="carousel-item">
                                 <div class="projectCard">
-                                    <div class="card text-center" style="width: 18rem;">
+                                    <div class="card text-center">
                                         <div class="card-body">
                                             <h5 class="card-title">Portfolio</h5>
                                             <div class="projectImgContainer">
                                                 <img src="imgs\Portfolio.jpg"
                                                 alt="Image of Okami Resume">
                                             </div>
-                                            <p class="card-text">Okami developers portfolio</p>
+                                            <p class="card-text">My developers personal portfolio</p>
                                             <!-- Button trigger modal -->
                                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                                 data-bs-target="#staticBackdrop5">
@@ -567,13 +567,17 @@
                                                 <div class="modal-dialog modal-dialog-centered">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
-                                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                                                            <h1 class="modal-title" id="staticBackdropLabel">
                                                                 Okami Suarez Web Developers Portfolio</h1>
                                                             <button type="button" class="btn-close"
                                                                 data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
-                                                        <div class="modal-body">
+                                                        <div class="modal-body" id="modalBodyText">
                                                             This project is actually the one you are in right now, it has a responsive view and also tryes to improve with the things I keep learning by myself, using HTML, CSS, SCSS, Bootstrap, JS, SweetAlert, EmailJS and StackOverflow help with some things I actually didn't know
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <a class="btn btn-success" href="https://github.com/OkamiSuarez/Portfolio" target="_blank" role="button">GitHub <i
+                                                                    class="fa-brands fa-github"></i></a>
                                                         </div>
                                                     </div>
                                                 </div>

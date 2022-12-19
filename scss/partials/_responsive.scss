@@ -6,45 +6,41 @@
 }
 // tablet 
 @media only screen and (min-width: 480px){
-    // *{
-    //     display: none;
-    // }
+    *{
+        background-color: rgba(255, 192, 203, 0.482);
+    }
 
     // Header
-.portfolio__titles--nav--div{
-    .portfolio__titles--nav--div--title{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        .portfolio__titles--nav--div--h2{
-            font-size: 3rem;
+    .portfolio__titles--nav--div{
+        .portfolio__titles--nav--div--title{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            .portfolio__titles--nav--div--h2{
+                font-size: 3rem;
+            }
+            .portfolio__titles--nav--div--h3{
+                font-size: 3rem;
+            }
         }
-        .portfolio__titles--nav--div--h3{
-            font-size: 3rem;
-        }
-    }
-    .portfolio__titles--nav--div--items--container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        .portfolio__titles--nav--div--dropdown{
-            // background-color: rgb(49, 78, 104);
-            width: 50%;
-        }
-        .portfolio__titles--nav--div--dropdown a{
-            width: 21rem;
-            font-size: 2rem;
-        }
-        .portfolio__titles--nav--div--btn-header{
-            font-size: 2.2rem;
-            width: 35%;
-        }
-        .portfolio__titles--nav--div--sidebar--desktop{
-            display: none;
-            // esto es por que se usará para el responsive en desktop view 
+        .portfolio__titles--nav--div--items--container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .portfolio__titles--nav--div--dropdown{
+                // background-color: rgb(49, 78, 104);
+                width: 50%;
+            }
+            .portfolio__titles--nav--div--dropdown a{
+                width: 21rem;
+                font-size: 2rem;
+            }
+            .portfolio__titles--nav--div--btn-header{
+                font-size: 2.2rem;
+                width: 35%;
+            }
         }
     }
-}
 
     // About me
     .portfolio__aboutMe--text1{
@@ -81,20 +77,250 @@
             font-size: 2rem;
         }
     }
+    // Projects
+    .carrouselContainer{
+        .projectCard{
+            .card-title{
+                // display: none;
+                font-size: 2.5rem;
+            }
+            .card-text{
+                // display: none;
+                font-size: 1.7rem;
+            }
+            button{
+                font-size: 1.5rem;
+            }
+            .modal-title{
+                font-size: 2.3rem;
+            }
+            #modalBodyText{
+                font-size: 1.7rem;
+            }
+        }
+    }
 }
 // tablet landscape 
 @media only screen and (min-width: 768px) {
     *{
-        display: none;
-        background-color: red;
+        background-color: rgba(255, 0, 0, 0);
     }
+    
+    // Header
+    .portfolio__titles--nav--div{
+        .portfolio__titles--nav--div--title{
+            .portfolio__titles--nav--div--h2{
+                font-size: 6rem;
+            }
+            .portfolio__titles--nav--div--h3{
+                font-size: 4rem;
+            }
+        }
+        .portfolio__titles--nav--div--items--container{
+            margin: 1rem 0 0 0;
+            .portfolio__titles--nav--div--dropdown{
+                // background-color: rgb(49, 78, 104);
+                width: 30%;
+            }
+            .portfolio__titles--nav--div--dropdown a{
+                width: 27rem;
+                font-size: 2.5rem;
+            }
+            .portfolio__titles--nav--div--btn-header{
+                font-size: 2.5rem;
+                width: 22%;
+                height: 6rem;
+            }
+            .portfolio__titles--nav--div--sidebar--desktop{
+                display: none;
+                // esto es por que se usará para el responsive en desktop view 
+            }
+        }
+    }
+    // Education
+    .portfolio__education--section{
+        .card-title{
+            font-size: 4rem;
+        }
+        .card-body p{
+            font-size: 2.5rem;
+        }
+        .btn{
+            font-size: 2rem;
+            border: solid 3px rgb(0, 0, 0);
+            border-radius: 1rem;
+        }
+    }
+    // Experience
+    .portfolio__experience--container{
+        #experienceName{
+            font-size: 3rem;
+            border: solid black 1.5px;
+        }
+        .accordion-body{
+            font-size: 2rem;
+        }
+    }
+    // Projects
+    .carrouselContainer{
+        .projectCard{
+            .card-title{
+                font-size: 4rem;
+            }
+            .card-text{
+                font-size: 2.5rem;
+            }
+            button{
+                font-size: 2rem;
+                margin: 0 1rem 0 1rem;
+            }
+            .modal-title{
+                font-size: 3rem;
+            }
+            #modalBodyText{
+                font-size: 2rem;
+            }
+            .modal-dialog{
+                max-width: 80%;
+            }
+            .modal-content{
+                height: 100%;
+            }
+            a{
+                font-size: 2rem;
+                border-radius: 0.8rem;
+                margin-right: 2rem;
+            }
+        }
+    }
+    // footer
+    footer{
+        #mailButton{
+            font-size: 3rem;
+            width: 40%;
+        }
+        input{
+            height: 4rem;
+        }
+        .jsForm{
+            .field label {
+            font-size: 4rem;
+            }
+            .formTextArea{
+                height: 9rem;
+            }
+            .field input {
+            min-width: 90%;
+            line-height: 2;
+            font-size: 1.2rem;
+            border-radius: 3rem;
+            text-align: center;
+            background-color: rgba(179, 247, 202, 0.928);
+            }
+            
+            input[type="submit"] {
+            width: 40%;
+            font-size: 2rem;
+            }
+            
+        }
+    
+    };
 }
 // laptop 
 @media only screen and (min-width: 1024px){
     *{
-        display: none;
+        // display: none;
         background-color: blue;
     }
+    // Header
+    .portfolio__titles--nav--div{
+        .portfolio__titles--nav--div--title{
+            .portfolio__titles--nav--div--h2{
+                font-size: 8rem;
+            }
+            .portfolio__titles--nav--div--h3{
+                font-size: 4rem;
+            }
+        }
+        .portfolio__titles--nav--div--items--container{
+            margin: 1rem 0 1rem 0;
+            .portfolio__titles--nav--div--dropdown{
+                // background-color: rgb(49, 78, 104);
+                width: 30%;
+            }
+            .portfolio__titles--nav--div--dropdown a{
+                width: 48rem;
+                font-size: 4.6rem;
+            }
+            .portfolio__titles--nav--div--btn-header{
+                font-size: 4rem;
+                width: 30%;
+                height: 8rem;
+            }
+            .portfolio__titles--nav--div--sidebar--desktop{
+                display: none;
+                // esto es por que se usará para el responsive en desktop view 
+            }
+        }
+    }
+    // Education
+    .portfolio__education--section{
+        .card-title{
+            font-size: 7rem;
+        }
+        .card-body p{
+            font-size: 5rem;
+        }
+        .btn{
+            font-size: 3.4rem;
+            border: solid 3px rgb(0, 0, 0);
+            border-radius: 1rem;
+        }
+    }
+    // Experience
+    .portfolio__experience--container{
+        #experienceName{
+            font-size: 4.7rem;
+            border: solid black 1.5px;
+        }
+        .accordion-body{
+            font-size: 3rem;
+        }
+    }
+    // Projects
+    .carrouselContainer{
+        .projectCard{
+            .card-title{
+                font-size: 5rem;
+            }
+            .card-text{
+                font-size: 4rem;
+            }
+            button{
+                font-size: 2rem;
+                margin: 0 1rem 0 1rem;
+            }
+            .modal-title{
+                font-size: 4.5rem;
+            }
+            #modalBodyText{
+                font-size: 2.5rem;
+            }
+            .modal-dialog{
+                max-width: 80%;
+            }
+            .modal-content{
+                height: 100%;
+            }
+            a{
+                font-size: 4rem;
+                border-radius: 0.8rem;
+                margin-right: 2rem;
+            }
+        }
+    }
+
 
 }
 // Desktop

@@ -1,33 +1,36 @@
 .portfolio__projects{
     @include projectsContainer;
-    .portfolio__projects--title{
-        @include title-list;
-        color: rgb(215, 215, 215);
-    }
-    .carrouselContainer{
-        width: 100%;
-        height: auto;
-        .projectCard{
+}
+.portfolio__projects--title{
+    @include title-list;
+    color: rgb(215, 215, 215);
+}
+.carrouselContainer{
+    width: 95%;
+    height: auto;
+    .projectCard{
+        display: flex;
+        padding: 1rem 0rem 1rem 0rem;
+        justify-content: center;
+        .card{
+            width: 70%;
+        }
+        .projectImgContainer{
             display: flex;
-            padding: 1rem 0rem 1rem 0rem;
             justify-content: center;
-            .projectImgContainer{
-                display: flex;
-                justify-content: center;
-                width: 100%;
-                margin-top: 1rem;
-                margin-bottom: 1rem;
-                img{
-                    width: 99%;
-                    height: auto;
-                    border-radius: 1rem;
-                }
+            width: 100%;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            img{
+                width: 99%;
+                height: auto;
+                border-radius: 1rem;
             }
-            .modal-body{
-                text-align: justify;
-                padding: 1rem 2rem 1rem 2rem;
-                font-size: 1.1rem;
-            }
+        }
+        .modal-body{
+            text-align: justify;
+            padding: 1rem 2rem 1rem 2rem;
+            font-size: 1.1rem;
         }
     }
 }

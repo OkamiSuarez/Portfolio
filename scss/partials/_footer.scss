@@ -2,75 +2,73 @@ footer{
     background-color: #3a901b;
     border: solid #3a901b;
     margin-top: -0.1rem;
-    #mailButton{
-        width: 70%;
-        height: auto;
-        font-size: 1.8rem;
-        border-radius: 1rem;
-    }
-    .portfolio__contact--container--formContainer{
-        display: none;
-        .mailGreeting{
-            @include greetings-port;           
-        }
-    }
-    .portfolio__contact--container{
-        @include footerContainer;
-        i{
-            padding-left: 0.5rem;
-        }
-        .portfolio__contact--title{
-            @include title-list;
-            color: rgba(0, 0, 0, 0.85);
-        }
-        a{
-            @include anchorFooter;
-        }
-        #alterMail{
-            display: none;
-        }
-    }
-
-    .jsForm{
+}
+#mailButton{
+    width: 70%;
+    height: auto;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+}
+.jsForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .field {
+        margin-bottom: 1rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        .field {
-            margin-bottom: 1rem;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .field label {
-        display: flex;
-        justify-content: center;
-        font-size: 1.7rem;
-        color: rgb(237, 237, 237);
-        }
-        
-        .formTextArea{
-            height: 5rem;
-            border-radius: 1rem !important;
-        }
-
-        .field input {
-        min-width: 90%;
-        line-height: 2;
-        font-size: 1.2rem;
-        border-radius: 3rem;
-        text-align: center;
-        background-color: rgba(179, 247, 202, 0.928);
-        }
-        
-
-        input[type="submit"] {
-        width: 50%;
-        padding: 0.2rem 1.2rem;
-        font-size: 1.3rem;
-        // background-color: #7bfffd;
-        color: rgb(0, 0, 0);
-        border-radius: 3rem;
-        }
+    }
+    
+    .field label {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    color: rgb(237, 237, 237);
+    }  
+    .formTextArea{
+        height: 5rem;
+        border-radius: 1rem;
     }
 
-};
+    .field input {
+    min-width: 90%;
+    line-height: 2;
+    font-size: 1.2rem;
+    border-radius: 3rem;
+    text-align: center;
+    background-color: rgba(179, 247, 202, 0.928);
+    }
+    
+
+    input[type="submit"] {
+    width: 50%;
+    padding: 0.2rem 1.2rem;
+    font-size: 1.3rem;
+    // background-color: #7bfffd;
+    color: rgb(0, 0, 0);
+    border-radius: 3rem;
+    }
+}
+
+.portfolio__contact--container--formContainer{
+    display: none;
+    .mailGreeting{
+        @include greetings-port;           
+    }
+}
+.portfolio__contact--container{
+    @include footerContainer;
+    i{
+        padding-left: 0.5rem;
+    }
+    .portfolio__contact--title{
+        @include title-list;
+        color: rgba(0, 0, 0, 0.85);
+    }
+    a{
+        @include anchorFooter;
+    }
+    #alterMail{
+        display: none;
+    }
+}

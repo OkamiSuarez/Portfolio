@@ -65,6 +65,9 @@ html {
   }
 }
 @media only screen and (min-width: 480px) {
+  * {
+    background-color: rgba(255, 192, 203, 0.482);
+  }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title {
     display: flex;
     flex-direction: column;
@@ -91,9 +94,6 @@ html {
   .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--btn-header {
     font-size: 2.2rem;
     width: 35%;
-  }
-  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--sidebar--desktop {
-    display: none;
   }
   .portfolio__aboutMe--text1 {
     margin-bottom: 4rem;
@@ -123,17 +123,193 @@ html {
   .portfolio__experience--container .accordion-body {
     font-size: 2rem;
   }
+  .carrouselContainer .projectCard .card-title {
+    font-size: 2.5rem;
+  }
+  .carrouselContainer .projectCard .card-text {
+    font-size: 1.7rem;
+  }
+  .carrouselContainer .projectCard button {
+    font-size: 1.5rem;
+  }
+  .carrouselContainer .projectCard .modal-title {
+    font-size: 2.3rem;
+  }
+  .carrouselContainer .projectCard #modalBodyText {
+    font-size: 1.7rem;
+  }
 }
 @media only screen and (min-width: 768px) {
   * {
+    background-color: rgba(255, 0, 0, 0);
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h2 {
+    font-size: 6rem;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h3 {
+    font-size: 4rem;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container {
+    margin: 1rem 0 0 0;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--dropdown {
+    width: 30%;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--dropdown a {
+    width: 27rem;
+    font-size: 2.5rem;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--btn-header {
+    font-size: 2.5rem;
+    width: 22%;
+    height: 6rem;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--sidebar--desktop {
     display: none;
-    background-color: red;
+  }
+  .portfolio__education--section .card-title {
+    font-size: 4rem;
+  }
+  .portfolio__education--section .card-body p {
+    font-size: 2.5rem;
+  }
+  .portfolio__education--section .btn {
+    font-size: 2rem;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 1rem;
+  }
+  .portfolio__experience--container #experienceName {
+    font-size: 3rem;
+    border: solid black 1.5px;
+  }
+  .portfolio__experience--container .accordion-body {
+    font-size: 2rem;
+  }
+  .carrouselContainer .projectCard .card-title {
+    font-size: 4rem;
+  }
+  .carrouselContainer .projectCard .card-text {
+    font-size: 2.5rem;
+  }
+  .carrouselContainer .projectCard button {
+    font-size: 2rem;
+    margin: 0 1rem 0 1rem;
+  }
+  .carrouselContainer .projectCard .modal-title {
+    font-size: 3rem;
+  }
+  .carrouselContainer .projectCard #modalBodyText {
+    font-size: 2rem;
+  }
+  .carrouselContainer .projectCard .modal-dialog {
+    max-width: 80%;
+  }
+  .carrouselContainer .projectCard .modal-content {
+    height: 100%;
+  }
+  .carrouselContainer .projectCard a {
+    font-size: 2rem;
+    border-radius: 0.8rem;
+    margin-right: 2rem;
+  }
+  footer #mailButton {
+    font-size: 3rem;
+    width: 40%;
+  }
+  footer input {
+    height: 4rem;
+  }
+  footer .jsForm .field label {
+    font-size: 4rem;
+  }
+  footer .jsForm .formTextArea {
+    height: 9rem;
+  }
+  footer .jsForm .field input {
+    min-width: 90%;
+    line-height: 2;
+    font-size: 1.2rem;
+    border-radius: 3rem;
+    text-align: center;
+    background-color: rgba(179, 247, 202, 0.928);
+  }
+  footer .jsForm input[type=submit] {
+    width: 40%;
+    font-size: 2rem;
   }
 }
 @media only screen and (min-width: 1024px) {
   * {
-    display: none;
     background-color: blue;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h2 {
+    font-size: 8rem;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h3 {
+    font-size: 4rem;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container {
+    margin: 1rem 0 1rem 0;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--dropdown {
+    width: 30%;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--dropdown a {
+    width: 48rem;
+    font-size: 4.6rem;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--btn-header {
+    font-size: 4rem;
+    width: 30%;
+    height: 8rem;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--sidebar--desktop {
+    display: none;
+  }
+  .portfolio__education--section .card-title {
+    font-size: 7rem;
+  }
+  .portfolio__education--section .card-body p {
+    font-size: 5rem;
+  }
+  .portfolio__education--section .btn {
+    font-size: 3.4rem;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 1rem;
+  }
+  .portfolio__experience--container #experienceName {
+    font-size: 4.7rem;
+    border: solid black 1.5px;
+  }
+  .portfolio__experience--container .accordion-body {
+    font-size: 3rem;
+  }
+  .carrouselContainer .projectCard .card-title {
+    font-size: 5rem;
+  }
+  .carrouselContainer .projectCard .card-text {
+    font-size: 4rem;
+  }
+  .carrouselContainer .projectCard button {
+    font-size: 2rem;
+    margin: 0 1rem 0 1rem;
+  }
+  .carrouselContainer .projectCard .modal-title {
+    font-size: 4.5rem;
+  }
+  .carrouselContainer .projectCard #modalBodyText {
+    font-size: 2.5rem;
+  }
+  .carrouselContainer .projectCard .modal-dialog {
+    max-width: 80%;
+  }
+  .carrouselContainer .projectCard .modal-content {
+    height: 100%;
+  }
+  .carrouselContainer .projectCard a {
+    font-size: 4rem;
+    border-radius: 0.8rem;
+    margin-right: 2rem;
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -211,6 +387,11 @@ html {
     margin: 1rem 1rem 3rem 1rem;
   }
 }
+@media only screen and (min-width: 768px) {
+  .portfolio__welcome .portfolio__welcome--text--h2--1 {
+    font-size: 4rem;
+  }
+}
 .portfolio__welcome .portfolio__welcome--text--h2--2 {
   font-size: 2rem;
   padding-bottom: 2rem;
@@ -223,6 +404,11 @@ html {
     margin: 1rem 1rem 3rem 1rem;
   }
 }
+@media only screen and (min-width: 768px) {
+  .portfolio__welcome .portfolio__welcome--text--h2--2 {
+    font-size: 4rem;
+  }
+}
 .portfolio__welcome .portfolio__welcome--text--h3 {
   font-size: 1.5rem;
   text-align: justify;
@@ -232,6 +418,11 @@ html {
   .portfolio__welcome .portfolio__welcome--text--h3 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .portfolio__welcome .portfolio__welcome--text--h3 {
+    font-size: 3.7rem;
   }
 }
 
@@ -254,6 +445,11 @@ html {
     margin: 1rem 1rem 3rem 1rem;
   }
 }
+@media only screen and (min-width: 768px) {
+  .portfolio__aboutMe .portfolio__aboutMe--title {
+    font-size: 5rem;
+  }
+}
 .portfolio__aboutMe .portfolio__aboutMe--info {
   font-size: 1.5rem;
   text-align: justify;
@@ -262,6 +458,11 @@ html {
   .portfolio__aboutMe .portfolio__aboutMe--info {
     font-size: 2.5rem;
     margin-bottom: 3rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .portfolio__aboutMe .portfolio__aboutMe--info {
+    font-size: 3.7rem;
   }
 }
 .portfolio__aboutMe .portfolio__aboutMe--info .portfolio__aboutMe--text1 {
@@ -292,6 +493,12 @@ html {
     margin-bottom: 3rem;
   }
 }
+@media only screen and (min-width: 768px) {
+  .portfolio__activities .portfolio__activities--ul .portfolio__activities--title {
+    margin-top: 3rem;
+    font-size: 4rem;
+  }
+}
 .portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div {
   display: flex;
   list-style: none;
@@ -313,6 +520,11 @@ html {
   .portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r {
     font-size: 3rem;
     margin-bottom: 2rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r {
+    font-size: 4rem;
   }
 }
 .portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r .portfolio__activities--li--r--img--vb {
@@ -342,6 +554,11 @@ html {
     margin-bottom: 2rem;
   }
 }
+@media only screen and (min-width: 768px) {
+  .portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l {
+    font-size: 4rem;
+  }
+}
 .portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l .portfolio__activities--li--l--img--games {
   height: auto;
   width: 100%;
@@ -365,6 +582,12 @@ html {
   .portfolio__foreignLanguages .portfolio__foreignLanguages--title {
     font-size: 3.7rem;
     margin-bottom: 3rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .portfolio__foreignLanguages .portfolio__foreignLanguages--title {
+    margin-top: 3rem;
+    font-size: 4rem;
   }
 }
 .portfolio__foreignLanguages .portfolio__foreignLanguages--container {
@@ -391,6 +614,13 @@ html {
     font-size: 3.5rem;
   }
 }
+@media only screen and (min-width: 768px) {
+  .portfolio__foreignLanguages .portfolio__foreignLanguages--container .portfolio__foreignLanguages--languageTitle {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 4rem;
+  }
+}
 .portfolio__foreignLanguages .portfolio__foreignLanguages--container .portfolio__foreignLanguages--li {
   font-size: 1rem;
   display: block;
@@ -398,6 +628,11 @@ html {
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   .portfolio__foreignLanguages .portfolio__foreignLanguages--container .portfolio__foreignLanguages--li {
     font-size: 2.8rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .portfolio__foreignLanguages .portfolio__foreignLanguages--container .portfolio__foreignLanguages--li {
+    font-size: 3rem;
   }
 }
 
@@ -425,13 +660,18 @@ html {
     margin: 1rem 1rem 3rem 1rem;
   }
 }
+@media only screen and (min-width: 768px) {
+  .portfolio__education--h3 {
+    font-size: 5rem;
+  }
+}
 
 .portfolio__education--section {
   font-size: 1.2rem;
   text-align: center;
   margin-bottom: 2rem;
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
   .portfolio__education--section {
     font-size: 2rem;
   }
@@ -482,6 +722,12 @@ html {
     margin-bottom: 3rem;
   }
 }
+@media only screen and (min-width: 768px) {
+  .portfolio__experience--title {
+    margin-top: 3rem;
+    font-size: 4rem;
+  }
+}
 
 .portfolio__experience--container {
   padding: 1rem 1rem 2rem 1rem;
@@ -507,40 +753,51 @@ html {
   flex-wrap: nowrap;
   color: #000;
 }
-.portfolio__projects .portfolio__projects--title {
+
+.portfolio__projects--title {
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
   color: rgb(215, 215, 215);
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  .portfolio__projects .portfolio__projects--title {
+  .portfolio__projects--title {
     font-size: 3.7rem;
     margin-bottom: 3rem;
   }
 }
-.portfolio__projects .carrouselContainer {
-  width: 100%;
+@media only screen and (min-width: 768px) {
+  .portfolio__projects--title {
+    margin-top: 3rem;
+    font-size: 4rem;
+  }
+}
+
+.carrouselContainer {
+  width: 95%;
   height: auto;
 }
-.portfolio__projects .carrouselContainer .projectCard {
+.carrouselContainer .projectCard {
   display: flex;
   padding: 1rem 0rem 1rem 0rem;
   justify-content: center;
 }
-.portfolio__projects .carrouselContainer .projectCard .projectImgContainer {
+.carrouselContainer .projectCard .card {
+  width: 70%;
+}
+.carrouselContainer .projectCard .projectImgContainer {
   display: flex;
   justify-content: center;
   width: 100%;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.portfolio__projects .carrouselContainer .projectCard .projectImgContainer img {
+.carrouselContainer .projectCard .projectImgContainer img {
   width: 99%;
   height: auto;
   border-radius: 1rem;
 }
-.portfolio__projects .carrouselContainer .projectCard .modal-body {
+.carrouselContainer .projectCard .modal-body {
   text-align: justify;
   padding: 1rem 2rem 1rem 2rem;
   font-size: 1.1rem;
@@ -551,71 +808,35 @@ footer {
   border: solid #3a901b;
   margin-top: -0.1rem;
 }
-footer #mailButton {
+
+#mailButton {
   width: 70%;
   height: auto;
   font-size: 1.8rem;
   border-radius: 1rem;
 }
-footer .portfolio__contact--container--formContainer {
-  display: none;
-}
-footer .portfolio__contact--container--formContainer .mailGreeting {
-  font-size: 2.5rem;
-  text-align: center;
-  color: rgb(255, 255, 255);
-}
-footer .portfolio__contact--container {
-  margin: 2rem 0.5rem 2rem 0.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.2rem;
-}
-footer .portfolio__contact--container i {
-  padding-left: 0.5rem;
-}
-footer .portfolio__contact--container .portfolio__contact--title {
-  font-size: 2rem;
-  text-align: center;
-  text-decoration: underline;
-  color: rgba(0, 0, 0, 0.85);
-}
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-  footer .portfolio__contact--container .portfolio__contact--title {
-    font-size: 3.7rem;
-    margin-bottom: 3rem;
-  }
-}
-footer .portfolio__contact--container a {
-  font-size: 2.5rem;
-  text-decoration: none;
-  color: rgb(135, 245, 226);
-}
-footer .portfolio__contact--container #alterMail {
-  display: none;
-}
-footer .jsForm {
+
+.jsForm {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-footer .jsForm .field {
+.jsForm .field {
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
 }
-footer .jsForm .field label {
+.jsForm .field label {
   display: flex;
   justify-content: center;
   font-size: 1.7rem;
   color: rgb(237, 237, 237);
 }
-footer .jsForm .formTextArea {
+.jsForm .formTextArea {
   height: 5rem;
-  border-radius: 1rem !important;
+  border-radius: 1rem;
 }
-footer .jsForm .field input {
+.jsForm .field input {
   min-width: 90%;
   line-height: 2;
   font-size: 1.2rem;
@@ -623,12 +844,68 @@ footer .jsForm .field input {
   text-align: center;
   background-color: rgba(179, 247, 202, 0.928);
 }
-footer .jsForm input[type=submit] {
+.jsForm input[type=submit] {
   width: 50%;
   padding: 0.2rem 1.2rem;
   font-size: 1.3rem;
   color: rgb(0, 0, 0);
   border-radius: 3rem;
+}
+
+.portfolio__contact--container--formContainer {
+  display: none;
+}
+.portfolio__contact--container--formContainer .mailGreeting {
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+@media only screen and (min-width: 768px) {
+  .portfolio__contact--container--formContainer .mailGreeting {
+    font-size: 4rem;
+  }
+}
+
+.portfolio__contact--container {
+  margin: 2rem 0.5rem 2rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.2rem;
+}
+.portfolio__contact--container i {
+  padding-left: 0.5rem;
+}
+.portfolio__contact--container .portfolio__contact--title {
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.85);
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .portfolio__contact--container .portfolio__contact--title {
+    font-size: 3.7rem;
+    margin-bottom: 3rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .portfolio__contact--container .portfolio__contact--title {
+    margin-top: 3rem;
+    font-size: 4rem;
+  }
+}
+.portfolio__contact--container a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: rgb(135, 245, 226);
+}
+@media only screen and (min-width: 768px) {
+  .portfolio__contact--container a {
+    font-size: 4rem;
+  }
+}
+.portfolio__contact--container #alterMail {
+  display: none;
 }
 
 * {
