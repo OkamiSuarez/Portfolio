@@ -228,73 +228,94 @@ html {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h2 {
-    font-size: 8rem;
+    font-size: 3.5rem;
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h3 {
-    font-size: 4rem;
-  }
-  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container {
-    margin: 1rem 0 1rem 0;
-  }
-  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--dropdown {
-    width: 30%;
-  }
-  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--dropdown a {
-    width: 48rem;
-    font-size: 4.6rem;
-  }
-  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--btn-header {
-    font-size: 4rem;
-    width: 30%;
-    height: 8rem;
-  }
-  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--sidebar--desktop {
-    display: none;
-  }
-  .portfolio__education--section .card-title {
-    font-size: 7rem;
-  }
-  .portfolio__education--section .card-body p {
-    font-size: 5rem;
-  }
-  .portfolio__education--section .btn {
-    font-size: 3.4rem;
-    border: solid 3px rgb(0, 0, 0);
-    border-radius: 1rem;
-  }
-  .portfolio__experience--container #experienceName {
-    font-size: 4.7rem;
-    border: solid black 1.5px;
-  }
-  .portfolio__experience--container .accordion-body {
     font-size: 3rem;
   }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--dropdown a {
+    width: 28rem;
+    font-size: 2.1rem;
+  }
+  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--btn-header {
+    font-size: 2rem;
+    width: 20%;
+  }
+  .portfolio__aboutMe--text1 {
+    margin-bottom: 3rem;
+  }
+  .portfolio__aboutMe--text2 {
+    padding-bottom: 2rem;
+  }
+  #vbImg {
+    width: 50%;
+  }
+  #gamesImg {
+    width: 50%;
+  }
+  #nerdImg {
+    width: 50%;
+  }
+  #problemImg {
+    width: 50%;
+  }
+  .portfolio__foreignLanguages--languageTitle {
+    font-size: 4rem;
+  }
+  .portfolio__foreignLanguages--li {
+    font-size: 7rem;
+  }
+  .portfolio__education--section .card-title {
+    font-size: 2.8rem;
+  }
+  .portfolio__education--section .card-body p {
+    font-size: 2.2rem;
+  }
+  .portfolio__education--section .btn {
+    font-size: 1.4rem;
+  }
+  .portfolio__education--section img {
+    max-height: 30rem;
+  }
+  .portfolio__experience--container #experienceName {
+    font-size: 3rem;
+  }
+  .portfolio__experience--container .accordion-body {
+    font-size: 2rem;
+  }
   .carrouselContainer .projectCard .card-title {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .carrouselContainer .projectCard .card-text {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .carrouselContainer .projectCard button {
-    font-size: 2rem;
-    margin: 0 1rem 0 1rem;
+    font-size: 1.5rem;
   }
   .carrouselContainer .projectCard .modal-title {
-    font-size: 4.5rem;
+    font-size: 2.7rem;
   }
   .carrouselContainer .projectCard #modalBodyText {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
-  .carrouselContainer .projectCard .modal-dialog {
-    max-width: 80%;
+  #mailButton {
+    width: 40%;
+    font-size: 3.5rem;
+    border-radius: 1.5rem;
   }
-  .carrouselContainer .projectCard .modal-content {
-    height: 100%;
+  #openedMailButton {
+    width: 15%;
+    font-size: 2rem;
+    border-radius: 1.5rem;
   }
-  .carrouselContainer .projectCard a {
-    font-size: 4rem;
-    border-radius: 0.8rem;
-    margin-right: 2rem;
+  #mailLabel {
+    font-size: 2.7rem;
+  }
+  #nameLabel {
+    font-size: 2.7rem;
+  }
+  #messageLabel {
+    font-size: 2.7rem;
   }
 }
 @media only screen and (min-width: 1600px) {
