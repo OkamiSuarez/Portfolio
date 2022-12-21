@@ -228,10 +228,10 @@ html {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h2 {
-    font-size: 3.5rem;
+    font-size: 5rem;
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h3 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--dropdown a {
     width: 28rem;
@@ -332,17 +332,20 @@ html {
 }
 @media only screen and (min-width: 480px) {
   .portfolio__titles--nav--div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 1rem 0.5rem 0rem 0.5rem;
     display: flex;
-    background-color: rgba(171, 171, 171, 0.604);
     color: rgb(0, 0, 0);
     justify-content: center;
     align-items: stretch;
     flex-direction: column;
     flex-wrap: nowrap;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .portfolio__titles--nav--div {
+    padding: 2rem 0.5rem 0rem 0.5rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
 }
 
@@ -368,10 +371,6 @@ html {
 }
 
 .portfolio__titles--nav--div--title {
-  display: none;
-}
-
-.portfolio__titles--nav--div--sidebar--desktop {
   display: none;
 }
 
