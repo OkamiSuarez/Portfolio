@@ -134,21 +134,25 @@
                         <li class="portfolio__activities--li--r">
                             Sports practice (volleyball, table tennis, swimming, GYM)
                             <img src="imgs\portfolio_vb.jpg" alt="playing volleyball"
-                                class="portfolio__activities--li--r--img--vb">
+                                class="portfolio__activities--li--r--img--vb"
+                                id="vbImg">
                         </li>
                         <li class="portfolio__activities--li--l">
                             Videogames
                             <img src="https://i.pinimg.com/originals/83/4c/25/834c25d4a2c304099b9f79184b43af68.png"
-                                alt="Bioshock Infinite Logo" class="portfolio__activities--li--l--img--games">
+                                alt="Bioshock Infinite Logo" class="portfolio__activities--li--l--img--games"
+                                id="gamesImg">
                         </li>
                         <li class="portfolio__activities--li--r">Self learning
                             <img src="https://media.tenor.com/vEiJW6jqR5MAAAAd/nerd-homer-simpson.gif"
-                                alt="Homer yelling NERD" class="portfolio__activities--li--r--img--self">
+                                alt="Homer yelling NERD" class="portfolio__activities--li--r--img--self"
+                                id="nerdImg">
                         </li>
                         <li class="portfolio__activities--li--l">
                             Problem solving
                             <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/how-to-read-a-competitive-programming-problem-1.jpg"
-                                alt="Guy thinking" class="portfolio__activities--li--l--img--problem">
+                                alt="Guy thinking" class="portfolio__activities--li--l--img--problem"
+                                id="problemImg">
                         </li>
                     </div>
                 </ul>
@@ -617,15 +621,15 @@
                     <!-- MailJS -->
                     <form class="jsForm" id="form">
                         <div class="field">
-                            <label for="email_id">Please provide your email</label>
+                            <label for="email_id" id="mailLabel">Please provide your email</label>
                             <input type="email" name="email_id" id="email_id" required>
                         </div>
                         <div class="field">
-                            <label for="from_name">Your name</label>
+                            <label for="from_name" id="nameLabel">Your name</label>
                             <input type="text" name="from_name" id="from_name" required>
                         </div>
                         <div class="field">
-                            <label for="message">Your message</label>
+                            <label for="message" id="messageLabel">Your message</label>
                             <input type="text" name="message" class="formTextArea" id="message" required>
                         </div>
 

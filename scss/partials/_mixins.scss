@@ -7,15 +7,14 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 0.5rem 1rem 0.5rem;
+        padding: 1rem 0.5rem 0rem 0.5rem;
         display: flex;
         background-color: rgba(171, 171, 171, 0.604);
         color: rgb(0, 0, 0);
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
         flex-direction: column;
         flex-wrap: nowrap;
-        
     }
 };
 @mixin textContainer {
@@ -36,7 +35,7 @@
         margin: 1rem 1rem 3rem 1rem;
     }
     @media only screen and (min-width: 768px) {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 };
 
@@ -50,9 +49,10 @@
         margin: 1rem 1rem 3rem 1rem;
     }
     @media only screen and (min-width: 768px) {
-        font-size: 4rem;
+        font-size: 3.4rem;
         // color: rgb(25, 201, 255);
     }
+    
 };
 
 @mixin text-port {
@@ -63,7 +63,7 @@
         margin-bottom: 3rem;
     }
     @media only screen and (min-width: 768px) {
-        font-size: 3.7rem;
+        font-size: 3rem;
         // color: rgb(25, 201, 255);
     }
 };
@@ -106,7 +106,7 @@
         margin-bottom: 2rem;
     }
     @media only screen and (min-width: 768px) {
-        font-size: 4rem;
+        font-size: 3rem;
         // color: rgb(25, 201, 255);
     }
 };
@@ -126,7 +126,7 @@
         margin-bottom: 2rem;
     }
     @media only screen and (min-width: 768px) {
-        font-size: 4rem;
+        font-size: 3rem;
         // color: rgb(25, 201, 255);
     }
 };
@@ -226,17 +226,3 @@
         font-size: 4rem;
     }
 };
-
-
-// para importar 
-
-// selector {
-//     @include mixin-name;
-//   }
-
-// ejemplo
-
-//   .danger {
-//     @include important-text;
-//     background-color: green;
-//   }

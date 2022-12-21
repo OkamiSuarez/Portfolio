@@ -1,3 +1,24 @@
+.portfolio__activities--li--r--img--vb{
+    height: auto;
+    width: 70%;
+    border-radius: 4rem;
+}
+.portfolio__activities--li--r--img--self{
+    height: auto;
+    width: 70%;
+    border-radius: 2rem;
+}
+.portfolio__activities--li--l--img--games{
+    height: auto;
+    width: 100%;
+    border-radius: 4rem;
+}
+.portfolio__activities--li--l--img--problem{
+    height: auto;
+    width: 100%;
+    border-radius: 5rem;
+}
+
 .portfolio__activities{
     .portfolio__activities--ul{
         @include listContainer;
@@ -11,48 +32,11 @@
             flex-direction: column;
             .portfolio__activities--li--r{
                 @include listImgText;
-                .portfolio__activities--li--r--img--vb{
-                    height: auto;
-                    width: 70%;
-                    border-radius: 4rem;
-                }
-                .portfolio__activities--li--r--img--self{
-                    height: auto;
-                    width: 70%;
-                    border-radius: 2rem;
-                }
-
             }
             .portfolio__activities--li--l{
                 @include listTextImg;
-                .portfolio__activities--li--l--img--games{
-                    height: auto;
-                    width: 100%;
-                    border-radius: 4rem;
-                }
-                .portfolio__activities--li--l--img--problem{
-                    height: auto;
-                    width: 100%;
-                    border-radius: 5rem;
-                }
             }
         }
     }
 }
 
-// .portfolio__welcome{
-//     @include textContainer;
-//     .portfolio__welcome--text--h2--1{
-//         @include title-port;
-//     }
-//     .portfolio__welcome--text--h2--2{
-//         @include title-port;
-//     }
-//     .portfolio__welcome--text--h3{
-//         @include text-port;
-//         padding-right: 7.5rem;
-//     }
-//     .portfolio__welcome--text--h2--responsive{
-//         display: none;
-//     }
-// }

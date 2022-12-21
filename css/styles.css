@@ -136,98 +136,94 @@ html {
 }
 @media only screen and (min-width: 768px) {
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h2 {
-    font-size: 6rem;
+    font-size: 3.5rem;
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h3 {
-    font-size: 4rem;
-  }
-  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container {
-    margin: 1rem 0 0 0;
-  }
-  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--dropdown {
-    width: 30%;
+    font-size: 3rem;
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--dropdown a {
-    width: 27rem;
-    font-size: 2.5rem;
+    width: 28rem;
+    font-size: 2.1rem;
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--btn-header {
-    font-size: 2.5rem;
-    width: 22%;
-    height: 6rem;
+    font-size: 2rem;
+    width: 20%;
   }
-  .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--sidebar--desktop {
-    display: none;
+  .portfolio__aboutMe--text1 {
+    margin-bottom: 3rem;
   }
-  .portfolio__education--section .card-title {
+  .portfolio__aboutMe--text2 {
+    padding-bottom: 2rem;
+  }
+  #vbImg {
+    width: 50%;
+  }
+  #gamesImg {
+    width: 50%;
+  }
+  #nerdImg {
+    width: 50%;
+  }
+  #problemImg {
+    width: 50%;
+  }
+  .portfolio__foreignLanguages--languageTitle {
     font-size: 4rem;
   }
+  .portfolio__foreignLanguages--li {
+    font-size: 7rem;
+  }
+  .portfolio__education--section .card-title {
+    font-size: 2.8rem;
+  }
   .portfolio__education--section .card-body p {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   .portfolio__education--section .btn {
-    font-size: 2rem;
-    border: solid 3px rgb(0, 0, 0);
-    border-radius: 1rem;
+    font-size: 1.4rem;
+  }
+  .portfolio__education--section img {
+    max-height: 30rem;
   }
   .portfolio__experience--container #experienceName {
     font-size: 3rem;
-    border: solid black 1.5px;
   }
   .portfolio__experience--container .accordion-body {
     font-size: 2rem;
   }
   .carrouselContainer .projectCard .card-title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .carrouselContainer .projectCard .card-text {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .carrouselContainer .projectCard button {
-    font-size: 2rem;
-    margin: 0 1rem 0 1rem;
+    font-size: 1.5rem;
   }
   .carrouselContainer .projectCard .modal-title {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
   .carrouselContainer .projectCard #modalBodyText {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
-  .carrouselContainer .projectCard .modal-dialog {
-    max-width: 80%;
-  }
-  .carrouselContainer .projectCard .modal-content {
-    height: 100%;
-  }
-  .carrouselContainer .projectCard a {
-    font-size: 2rem;
-    border-radius: 0.8rem;
-    margin-right: 2rem;
-  }
-  footer #mailButton {
-    font-size: 3rem;
+  #mailButton {
     width: 40%;
+    font-size: 3.5rem;
+    border-radius: 1.5rem;
   }
-  footer input {
-    height: 4rem;
-  }
-  footer .jsForm .field label {
-    font-size: 4rem;
-  }
-  footer .jsForm .formTextArea {
-    height: 9rem;
-  }
-  footer .jsForm .field input {
-    min-width: 90%;
-    line-height: 2;
-    font-size: 1.2rem;
-    border-radius: 3rem;
-    text-align: center;
-    background-color: rgba(179, 247, 202, 0.928);
-  }
-  footer .jsForm input[type=submit] {
-    width: 40%;
+  #openedMailButton {
+    width: 15%;
     font-size: 2rem;
+    border-radius: 1.5rem;
+  }
+  #mailLabel {
+    font-size: 2.7rem;
+  }
+  #nameLabel {
+    font-size: 2.7rem;
+  }
+  #messageLabel {
+    font-size: 2.7rem;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -318,12 +314,12 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0.5rem 1rem 0.5rem;
+    padding: 1rem 0.5rem 0rem 0.5rem;
     display: flex;
     background-color: rgba(171, 171, 171, 0.604);
     color: rgb(0, 0, 0);
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-direction: column;
     flex-wrap: nowrap;
   }
@@ -378,7 +374,7 @@ html {
 }
 @media only screen and (min-width: 768px) {
   .portfolio__welcome .portfolio__welcome--text--h2--1 {
-    font-size: 4rem;
+    font-size: 3.4rem;
   }
 }
 .portfolio__welcome .portfolio__welcome--text--h2--2 {
@@ -395,7 +391,7 @@ html {
 }
 @media only screen and (min-width: 768px) {
   .portfolio__welcome .portfolio__welcome--text--h2--2 {
-    font-size: 4rem;
+    font-size: 3.4rem;
   }
 }
 .portfolio__welcome .portfolio__welcome--text--h3 {
@@ -411,7 +407,7 @@ html {
 }
 @media only screen and (min-width: 768px) {
   .portfolio__welcome .portfolio__welcome--text--h3 {
-    font-size: 3.7rem;
+    font-size: 3rem;
   }
 }
 
@@ -436,7 +432,7 @@ html {
 }
 @media only screen and (min-width: 768px) {
   .portfolio__aboutMe .portfolio__aboutMe--title {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 .portfolio__aboutMe .portfolio__aboutMe--info {
@@ -451,7 +447,7 @@ html {
 }
 @media only screen and (min-width: 768px) {
   .portfolio__aboutMe .portfolio__aboutMe--info {
-    font-size: 3.7rem;
+    font-size: 3rem;
   }
 }
 .portfolio__aboutMe .portfolio__aboutMe--info .portfolio__aboutMe--text1 {
@@ -462,6 +458,30 @@ html {
 }
 .portfolio__aboutMe .portfolio__aboutMe--info .portfolio__aboutMe--text3 {
   padding-right: 5rem;
+}
+
+.portfolio__activities--li--r--img--vb {
+  height: auto;
+  width: 70%;
+  border-radius: 4rem;
+}
+
+.portfolio__activities--li--r--img--self {
+  height: auto;
+  width: 70%;
+  border-radius: 2rem;
+}
+
+.portfolio__activities--li--l--img--games {
+  height: auto;
+  width: 100%;
+  border-radius: 4rem;
+}
+
+.portfolio__activities--li--l--img--problem {
+  height: auto;
+  width: 100%;
+  border-radius: 5rem;
 }
 
 .portfolio__activities .portfolio__activities--ul {
@@ -513,18 +533,8 @@ html {
 }
 @media only screen and (min-width: 768px) {
   .portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r {
-    font-size: 4rem;
+    font-size: 3rem;
   }
-}
-.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r .portfolio__activities--li--r--img--vb {
-  height: auto;
-  width: 70%;
-  border-radius: 4rem;
-}
-.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r .portfolio__activities--li--r--img--self {
-  height: auto;
-  width: 70%;
-  border-radius: 2rem;
 }
 .portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l {
   display: flex;
@@ -545,18 +555,8 @@ html {
 }
 @media only screen and (min-width: 768px) {
   .portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l {
-    font-size: 4rem;
+    font-size: 3rem;
   }
-}
-.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l .portfolio__activities--li--l--img--games {
-  height: auto;
-  width: 100%;
-  border-radius: 4rem;
-}
-.portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--l .portfolio__activities--li--l--img--problem {
-  height: auto;
-  width: 100%;
-  border-radius: 5rem;
 }
 
 .portfolio__foreignLanguages {
@@ -651,7 +651,7 @@ html {
 }
 @media only screen and (min-width: 768px) {
   .portfolio__education--h3 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 }
 
@@ -798,7 +798,7 @@ footer {
   margin-top: -0.1rem;
 }
 
-#mailButton {
+button {
   width: 70%;
   height: auto;
   font-size: 1.8rem;

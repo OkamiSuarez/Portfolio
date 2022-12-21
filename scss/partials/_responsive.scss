@@ -114,52 +114,70 @@
     .portfolio__titles--nav--div{
         .portfolio__titles--nav--div--title{
             .portfolio__titles--nav--div--h2{
-                font-size: 6rem;
+                font-size: 3.5rem;
             }
             .portfolio__titles--nav--div--h3{
-                font-size: 4rem;
+                font-size: 3rem;
             }
         }
         .portfolio__titles--nav--div--items--container{
-            margin: 1rem 0 0 0;
-            .portfolio__titles--nav--div--dropdown{
-                // background-color: rgb(49, 78, 104);
-                width: 30%;
-            }
             .portfolio__titles--nav--div--dropdown a{
-                width: 27rem;
-                font-size: 2.5rem;
+                width: 28rem;
+                font-size: 2.1rem;
             }
             .portfolio__titles--nav--div--btn-header{
-                font-size: 2.5rem;
-                width: 22%;
-                height: 6rem;
-            }
-            .portfolio__titles--nav--div--sidebar--desktop{
-                display: none;
-                // esto es por que se usará para el responsive en desktop view 
+                font-size: 2rem;
+                width: 20%;
             }
         }
+    }
+
+    // About me
+    .portfolio__aboutMe--text1{
+        margin-bottom: 3rem;
+    }
+    .portfolio__aboutMe--text2{
+        padding-bottom: 2rem;
+    }
+    // Activities
+    #vbImg{
+    width: 50%;
+    }
+    #gamesImg{
+    width: 50%;
+    }
+    #nerdImg{
+    width: 50%;
+    }
+    #problemImg{
+    width: 50%;
+    }
+    // Languages
+    .portfolio__foreignLanguages--languageTitle{
+        font-size: 4rem;
+    }
+    .portfolio__foreignLanguages--li{
+        font-size: 7rem;
     }
     // Education
     .portfolio__education--section{
         .card-title{
-            font-size: 4rem;
+            font-size: 2.8rem;
         }
         .card-body p{
-            font-size: 2.5rem;
+            font-size: 2.2rem;
         }
         .btn{
-            font-size: 2rem;
-            border: solid 3px rgb(0, 0, 0);
-            border-radius: 1rem;
+            font-size: 1.4rem;
+        }
+        img{
+            max-height: 30rem;
         }
     }
     // Experience
     .portfolio__experience--container{
         #experienceName{
             font-size: 3rem;
-            border: solid black 1.5px;
         }
         .accordion-body{
             font-size: 2rem;
@@ -169,67 +187,44 @@
     .carrouselContainer{
         .projectCard{
             .card-title{
-                font-size: 4rem;
-            }
-            .card-text{
-                font-size: 2.5rem;
-            }
-            button{
-                font-size: 2rem;
-                margin: 0 1rem 0 1rem;
-            }
-            .modal-title{
+                // display: none;
                 font-size: 3rem;
             }
+            .card-text{
+                // display: none;
+                font-size: 2rem;
+            }
+            button{
+                font-size: 1.5rem;
+            }
+            .modal-title{
+                font-size: 2.7rem;
+            }
             #modalBodyText{
-                font-size: 2rem;
-            }
-            .modal-dialog{
-                max-width: 80%;
-            }
-            .modal-content{
-                height: 100%;
-            }
-            a{
-                font-size: 2rem;
-                border-radius: 0.8rem;
-                margin-right: 2rem;
+                font-size: 2.2rem;
             }
         }
     }
-    // footer
-    footer{
-        #mailButton{
-            font-size: 3rem;
-            width: 40%;
-        }
-        input{
-            height: 4rem;
-        }
-        .jsForm{
-            .field label {
-            font-size: 4rem;
-            }
-            .formTextArea{
-                height: 9rem;
-            }
-            .field input {
-            min-width: 90%;
-            line-height: 2;
-            font-size: 1.2rem;
-            border-radius: 3rem;
-            text-align: center;
-            background-color: rgba(179, 247, 202, 0.928);
-            }
-            
-            input[type="submit"] {
-            width: 40%;
-            font-size: 2rem;
-            }
-            
-        }
-    
-    };
+    // Footer
+    #mailButton{
+        width: 40%;
+        font-size: 3.5rem;
+        border-radius: 1.5rem;
+    }
+    #openedMailButton{
+        width: 15%;
+        font-size: 2rem;
+        border-radius: 1.5rem;
+    }
+    #mailLabel{
+        font-size: 2.7rem;
+    }
+    #nameLabel{
+        font-size: 2.7rem;
+    }
+    #messageLabel{
+        font-size: 2.7rem;
+    }
 }
 // laptop 
 @media only screen and (min-width: 1024px){
