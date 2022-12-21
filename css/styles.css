@@ -66,10 +66,10 @@ html {
     text-align: center;
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h3 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container {
     display: flex;
@@ -84,36 +84,39 @@ html {
     font-size: 2rem;
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--btn-header {
-    font-size: 2.2rem;
-    width: 35%;
+    font-size: 2rem;
+    width: 30%;
   }
   .portfolio__aboutMe--text1 {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
   .portfolio__aboutMe--text2 {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
   }
   .portfolio__foreignLanguages--languageTitle {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .portfolio__foreignLanguages--li {
     font-size: 7rem;
     display: block;
   }
   .portfolio__education--section .card-title {
-    font-size: 3.4rem;
-  }
-  .portfolio__education--section .card-body p {
     font-size: 2.2rem;
   }
+  .portfolio__education--section .card-body p {
+    font-size: 1.6rem;
+  }
   .portfolio__education--section .btn {
-    font-size: 2rem;
+    font-size: 1.4rem;
+  }
+  .portfolio__education--section img {
+    max-height: 25rem;
   }
   .portfolio__experience--container #experienceName {
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
   .portfolio__experience--container .accordion-body {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .carrouselContainer .projectCard .card-title {
     font-size: 2.5rem;
@@ -367,9 +370,9 @@ html {
   margin: 1rem 2rem 1rem 2rem;
   text-align: justify;
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
   .portfolio__welcome .portfolio__welcome--text--h2--1 {
-    font-size: 4rem;
+    font-size: 2.8rem;
     margin: 1rem 1rem 3rem 1rem;
   }
 }
@@ -384,9 +387,9 @@ html {
   margin: 1rem 2rem 1rem 2rem;
   text-align: justify;
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
   .portfolio__welcome .portfolio__welcome--text--h2--2 {
-    font-size: 4rem;
+    font-size: 2.8rem;
     margin: 1rem 1rem 3rem 1rem;
   }
 }
@@ -402,7 +405,7 @@ html {
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   .portfolio__welcome .portfolio__welcome--text--h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 3rem;
   }
 }
@@ -427,7 +430,7 @@ html {
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   .portfolio__aboutMe .portfolio__aboutMe--title {
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 1rem 1rem 3rem 1rem;
   }
 }
@@ -442,7 +445,7 @@ html {
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   .portfolio__aboutMe .portfolio__aboutMe--info {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 3rem;
   }
 }
@@ -473,9 +476,9 @@ html {
   text-align: center;
   text-decoration: underline;
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
   .portfolio__activities .portfolio__activities--ul .portfolio__activities--title {
-    font-size: 3.7rem;
+    font-size: 3rem;
     margin-bottom: 3rem;
   }
 }
@@ -502,7 +505,7 @@ html {
   font-size: 1.8rem;
   gap: 2rem;
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
   .portfolio__activities .portfolio__activities--ul .portfolio__activities--li--div .portfolio__activities--li--r {
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -564,9 +567,9 @@ html {
   text-align: center;
   text-decoration: underline;
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
   .portfolio__foreignLanguages .portfolio__foreignLanguages--title {
-    font-size: 3.7rem;
+    font-size: 3rem;
     margin-bottom: 3rem;
   }
 }
@@ -642,7 +645,7 @@ html {
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   .portfolio__education--h3 {
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 1rem 1rem 3rem 1rem;
   }
 }
@@ -702,9 +705,9 @@ html {
   color: rgb(215, 215, 215);
   padding-bottom: 1rem;
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
   .portfolio__experience--title {
-    font-size: 3.7rem;
+    font-size: 3rem;
     margin-bottom: 3rem;
   }
 }
@@ -746,9 +749,9 @@ html {
   text-decoration: underline;
   color: rgb(215, 215, 215);
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
   .portfolio__projects--title {
-    font-size: 3.7rem;
+    font-size: 3rem;
     margin-bottom: 3rem;
   }
 }
@@ -868,9 +871,9 @@ footer {
   text-decoration: underline;
   color: rgba(0, 0, 0, 0.85);
 }
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) {
   .portfolio__contact--container .portfolio__contact--title {
-    font-size: 3.7rem;
+    font-size: 3rem;
     margin-bottom: 3rem;
   }
 }

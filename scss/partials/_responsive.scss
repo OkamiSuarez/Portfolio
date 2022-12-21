@@ -17,10 +17,10 @@
             flex-direction: column;
             text-align: center;
             .portfolio__titles--nav--div--h2{
-                font-size: 3rem;
+                font-size: 2.5rem;
             }
             .portfolio__titles--nav--div--h3{
-                font-size: 3rem;
+                font-size: 2rem;
             }
         }
         .portfolio__titles--nav--div--items--container{
@@ -36,21 +36,21 @@
                 font-size: 2rem;
             }
             .portfolio__titles--nav--div--btn-header{
-                font-size: 2.2rem;
-                width: 35%;
+                font-size: 2rem;
+                width: 30%;
             }
         }
     }
 
     // About me
     .portfolio__aboutMe--text1{
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
     }
     .portfolio__aboutMe--text2{
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
     }
     .portfolio__foreignLanguages--languageTitle{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .portfolio__foreignLanguages--li{
         font-size: 7rem;
@@ -59,22 +59,26 @@
     // Education
     .portfolio__education--section{
         .card-title{
-            font-size: 3.4rem;
-        }
-        .card-body p{
             font-size: 2.2rem;
         }
-        .btn{
-            font-size: 2rem;
+        .card-body p{
+            font-size: 1.6rem;
         }
+        .btn{
+            font-size: 1.4rem;
+        }
+        img{
+            max-height: 25rem;
+        }
+
     }
     // Experience
     .portfolio__experience--container{
         #experienceName{
-            font-size: 2.6rem;
+            font-size: 2rem;
         }
         .accordion-body{
-            font-size: 2rem;
+            font-size: 1.6rem;
         }
     }
     // Projects

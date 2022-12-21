@@ -32,7 +32,7 @@
     text-align: justify;
     text-decoration: underline;
     @media only screen and (min-width: 480px) and (max-width: 768px){
-        font-size: 4rem;
+        font-size: 3rem;
         margin: 1rem 1rem 3rem 1rem;
     }
     @media only screen and (min-width: 768px) {
@@ -45,8 +45,8 @@
     padding-bottom: 2rem;
     margin: 1rem 2rem 1rem 2rem;
     text-align: justify;
-    @media only screen and (min-width: 480px) and (max-width: 768px){
-        font-size: 4rem;
+    @media only screen and (min-width: 480px){
+        font-size: 2.8rem;
         margin: 1rem 1rem 3rem 1rem;
     }
     @media only screen and (min-width: 768px) {
@@ -59,7 +59,7 @@
     font-size: 1.5rem;
     text-align: justify;
     @media only screen and (min-width: 480px) and (max-width: 768px){
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-bottom: 3rem;
     }
     @media only screen and (min-width: 768px) {
@@ -80,8 +80,8 @@
     font-size: 2rem;
     text-align: center;
     text-decoration: underline;
-    @media only screen and (min-width: 480px) and (max-width: 768px){
-        font-size: 3.7rem;
+    @media only screen and (min-width: 480px){
+        font-size: 3rem;
         margin-bottom: 3rem;
     }
     @media only screen and (min-width: 768px) {
@@ -101,7 +101,7 @@
     padding: 1rem 1rem 2rem 1rem;
     font-size: 1.8rem;
     gap: 2rem;
-    @media only screen and (min-width: 480px) and (max-width: 768px){
+    @media only screen and (min-width: 480px){
         font-size: 3rem;
         margin-bottom: 2rem;
     }
