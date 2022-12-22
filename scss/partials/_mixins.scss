@@ -13,9 +13,8 @@
         flex-wrap: nowrap;
     }
     @media only screen and (min-width: 1024px){
-        padding: 2rem 0.5rem 0rem 0.5rem;
+        padding: 1rem 4rem 0 4rem;
         background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
     }
 };
 
@@ -24,6 +23,10 @@
     flex-direction: column;
     flex-wrap: nowrap;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    @media only screen and (min-width: 1024px){
+    margin: 0.5rem 0rem 0.5rem 0rem ;
+    // padding: 2rem 3rem 2rem 3rem;
+    }
 };
 
 @mixin title-port-underline {
@@ -39,6 +42,14 @@
     @media only screen and (min-width: 768px) {
         font-size: 4rem;
     }
+    @media only screen and (min-width: 1024px){
+        font-size: 6rem;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        margin: 5rem 0 0 0;
+        padding: 0 6rem 0 6rem;
+        // padding-left: -0.5rem;
+    }
 };
 
 @mixin title-port {
@@ -48,13 +59,16 @@
     text-align: justify;
     @media only screen and (min-width: 480px){
         font-size: 2.8rem;
-        margin: 1rem 1rem 3rem 1rem;
+        margin: 3rem 1rem 3rem 1rem;
     }
     @media only screen and (min-width: 768px) {
         font-size: 3.4rem;
         // color: rgb(25, 201, 255);
     }
-    
+        @media only screen and (min-width: 1024px){
+        font-size: 5rem;
+        padding: 5rem 6rem 0 6rem;
+    }
 };
 
 @mixin text-port {
@@ -68,7 +82,26 @@
         font-size: 3rem;
         // color: rgb(25, 201, 255);
     }
+    @media only screen and (min-width: 1024px){
+        font-size: 3.8rem;
+        padding: 5rem 6rem 0 6rem;
+    }
 };
+
+@mixin desktopActivitiesContainer{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: rgb(0, 0, 0);
+    margin: 4rem 3rem 0 4rem;
+    gap: 4rem;
+    @media only screen and (min-width: 1024px){
+        display: flex;
+    }
+}
 
 @mixin listContainer {
     display: flex;
@@ -76,6 +109,9 @@
     flex-wrap: wrap;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
     padding-left: 0;
+    @media only screen and (min-width: 1024px){
+        margin: 0 0 0 0;
+    }
 };
 
 @mixin title-list {
@@ -90,6 +126,14 @@
         margin-top: 3rem;
         font-size: 4rem;
         // color: rgb(25, 201, 255);
+    }
+    @media only screen and (min-width: 1024px){
+        font-size: 6rem;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        margin: 5rem 0 0 0;
+        padding: 1rem 6rem 1rem 6rem;
+
     }
 };
 
@@ -111,6 +155,9 @@
         font-size: 3rem;
         // color: rgb(25, 201, 255);
     }
+    @media only screen and (min-width: 1024px) {
+        display: none;
+    }
 };
 
 @mixin listTextImg {
@@ -130,6 +177,9 @@
     @media only screen and (min-width: 768px) {
         font-size: 3rem;
         // color: rgb(25, 201, 255);
+    }
+    @media only screen and (min-width: 1024px) {
+        display: none;
     }
 };
 

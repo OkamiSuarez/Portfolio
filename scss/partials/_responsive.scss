@@ -232,6 +232,14 @@
     //     // display: none;
     //     background-color: blue;
     // }
+
+    // Background
+    #stars{
+        display: none;
+    }
+    #stars2{
+        display: none;
+    }
     // Header
     .portfolio__titles--nav--div{
         .portfolio__titles--nav--div--title{
@@ -244,22 +252,33 @@
         }
         .portfolio__titles--nav--div--items--container{
             .portfolio__titles--nav--div--dropdown a{
-                width: 28rem;
-                font-size: 2.1rem;
+                width: 35rem;
+                font-size: 3rem;
             }
             .portfolio__titles--nav--div--btn-header{
-                font-size: 2rem;
+                font-size: 3rem;
                 width: 20%;
             }
         }
     }
 
     // About me
+    .portfolio_activities--desktop--container{
+        
+        p{
+            font-size: 1rem;
+        }
+    }   
+
+
     .portfolio__aboutMe--text1{
         margin-bottom: 3rem;
     }
     .portfolio__aboutMe--text2{
         padding-bottom: 2rem;
+    }
+    .portfolio__welcome--text--h3{
+        padding-left: 2rem;
     }
     // Activities
     #vbImg{
