@@ -233,6 +233,14 @@ html {
   #stars2 {
     display: none;
   }
+  .secondBackground {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, #0039a6 100%);
+  }
+  .thirdBackground {
+    background: #000000;
+    background: linear-gradient(180deg, #0039a6 0%, #3a901b 100%);
+  }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h2 {
     font-size: 5rem;
   }
@@ -259,75 +267,126 @@ html {
   .portfolio__welcome--text--h3 {
     padding-left: 2rem;
   }
-  #vbImg {
-    width: 50%;
-  }
-  #gamesImg {
-    width: 50%;
-  }
-  #nerdImg {
-    width: 50%;
-  }
-  #problemImg {
-    width: 50%;
-  }
   .portfolio__foreignLanguages--languageTitle {
-    font-size: 4rem;
+    font-size: 5rem;
   }
   .portfolio__foreignLanguages--li {
     font-size: 7rem;
   }
+  .portfolio__education--cards--container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5rem;
+    align-items: center;
+  }
+  #unamCardContent {
+    display: flex;
+    align-items: center;
+  }
+  #michiganCardContent {
+    display: flex;
+    align-items: center;
+  }
+  #ibmCardContent {
+    display: flex;
+    align-items: center;
+    width: 60%;
+  }
   .portfolio__education--section .card-title {
-    font-size: 2.8rem;
+    font-size: 2rem;
+  }
+  .portfolio__education--section .card-body {
+    padding: 1rem 0.3rem 1rem 0.3rem;
   }
   .portfolio__education--section .card-body p {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
+    padding: 1rem 0.3rem 1rem 1rem;
   }
   .portfolio__education--section .btn {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
   .portfolio__education--section img {
-    max-height: 30rem;
+    max-height: 16rem;
+  }
+  .portfolio__education--section #unamImg {
+    margin-top: 0.5rem;
+    width: 40%;
+  }
+  .portfolio__education--section #michiganImg {
+    margin-top: 0.5rem;
+    width: 70%;
+  }
+  .portfolio__education--section #ibmImg {
+    margin-top: 0.5rem;
+    width: 100%;
   }
   .portfolio__experience--container #experienceName {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   .portfolio__experience--container .accordion-body {
     font-size: 2rem;
   }
+  .carrouselContainer {
+    width: 100;
+    margin-top: 3rem;
+  }
   .carrouselContainer .projectCard .card-title {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .carrouselContainer .projectCard .card-text {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .carrouselContainer .projectCard button {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .carrouselContainer .projectCard .modal-title {
-    font-size: 2.7rem;
+    font-size: 3rem;
   }
   .carrouselContainer .projectCard #modalBodyText {
-    font-size: 2.2rem;
+    font-size: 2.7rem;
+  }
+  .carrouselContainer .projectCard .btn {
+    font-size: 2.5rem;
+  }
+  .modal-dialog {
+    max-width: 80%;
   }
   #mailButton {
-    width: 40%;
-    font-size: 3.5rem;
-    border-radius: 1.5rem;
+    width: 30%;
+    font-size: 3rem;
+    border-radius: 1rem;
   }
   #openedMailButton {
-    width: 15%;
+    width: 12%;
     font-size: 2rem;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
   }
   #mailLabel {
-    font-size: 2.7rem;
+    font-size: 3.5rem;
+  }
+  #email_id {
+    height: 5rem;
+    border-radius: 0.8rem;
   }
   #nameLabel {
-    font-size: 2.7rem;
+    font-size: 3.5rem;
+  }
+  #from_name {
+    height: 5rem;
+    border-radius: 0.8rem;
   }
   #messageLabel {
-    font-size: 2.7rem;
+    font-size: 3.5rem;
+  }
+  #message {
+    border-radius: 1rem;
+  }
+  #button {
+    margin-top: 2rem;
+    font-size: 2rem;
+    width: 40%;
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -538,11 +597,10 @@ html {
 .portfolio_activities--desktop--container {
   display: none;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
-  background-color: rgb(0, 0, 0);
   margin: 4rem 3rem 0 4rem;
   gap: 4rem;
 }
@@ -778,9 +836,12 @@ html {
 }
 @media only screen and (min-width: 768px) {
   .portfolio__foreignLanguages .portfolio__foreignLanguages--container .portfolio__foreignLanguages--languageTitle {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     font-size: 4rem;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }
 .portfolio__foreignLanguages .portfolio__foreignLanguages--container .portfolio__foreignLanguages--li {
@@ -796,6 +857,34 @@ html {
   .portfolio__foreignLanguages .portfolio__foreignLanguages--container .portfolio__foreignLanguages--li {
     font-size: 3rem;
   }
+}
+
+.portfolio__education--section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.portfolio__education--section .card {
+  width: 85%;
+}
+.portfolio__education--section h5 {
+  font-size: 1.7rem;
+  color: rgb(0, 0, 0);
+}
+.portfolio__education--section p {
+  color: rgb(0, 0, 0);
+}
+.portfolio__education--section #collapseUnam {
+  margin-bottom: 1rem;
+}
+.portfolio__education--section #collapseCodeacademy {
+  margin-bottom: 1rem;
+}
+.portfolio__education--section #collapseCoderhouse {
+  margin-bottom: 1rem;
+}
+.portfolio__education--section #innerInfo {
+  width: 100%;
 }
 
 .portfolio__education {
@@ -847,33 +936,13 @@ html {
     font-size: 2rem;
   }
 }
-
-.portfolio__education--section {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-.portfolio__education--section .card {
-  width: 85%;
-}
-.portfolio__education--section h5 {
-  font-size: 1.7rem;
-  color: rgb(0, 0, 0);
-}
-.portfolio__education--section p {
-  color: rgb(0, 0, 0);
-}
-.portfolio__education--section #collapseUnam {
-  margin-bottom: 1rem;
-}
-.portfolio__education--section #collapseCodeacademy {
-  margin-bottom: 1rem;
-}
-.portfolio__education--section #collapseCoderhouse {
-  margin-bottom: 1rem;
-}
-.portfolio__education--section #innerInfo {
-  width: 100%;
+@media only screen and (min-width: 1024px) {
+  .portfolio__education--section {
+    width: 30%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
 }
 
 .portfolio__experience {
@@ -911,6 +980,11 @@ html {
 
 .portfolio__experience--container {
   padding: 1rem 1rem 2rem 1rem;
+}
+@media only screen and (min-width: 1024px) {
+  .portfolio__experience--container {
+    padding: 4rem 1rem 2rem 1rem;
+  }
 }
 
 .portfolio__experience--container .accordion button {
@@ -1067,29 +1141,26 @@ button {
 }
 .portfolio__contact--container .portfolio__contact--title {
   font-size: 2rem;
-  text-align: center;
-  text-decoration: underline;
+  padding-bottom: 2rem;
+  margin: 1rem 2rem 1rem 2rem;
+  text-align: justify;
   color: rgba(0, 0, 0, 0.85);
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
   .portfolio__contact--container .portfolio__contact--title {
     font-size: 3rem;
-    margin-bottom: 3rem;
+    margin: 1rem 1rem 3rem 1rem;
   }
 }
 @media only screen and (min-width: 768px) {
   .portfolio__contact--container .portfolio__contact--title {
-    margin-top: 3rem;
     font-size: 4rem;
   }
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__contact--container .portfolio__contact--title {
     font-size: 6rem;
-    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    margin: 5rem 0 0 0;
-    padding: 1rem 6rem 1rem 6rem;
   }
 }
 .portfolio__contact--container a {

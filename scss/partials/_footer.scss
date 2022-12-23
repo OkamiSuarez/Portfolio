@@ -62,7 +62,7 @@ button{
         padding-left: 0.5rem;
     }
     .portfolio__contact--title{
-        @include title-list;
+        @include footerText;
         color: rgba(0, 0, 0, 0.85);
     }
     a{

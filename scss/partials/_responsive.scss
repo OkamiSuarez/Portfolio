@@ -240,6 +240,14 @@
     #stars2{
         display: none;
     }
+    .secondBackground{
+        background: rgb(0, 0, 0);
+        background: linear-gradient(180deg, rgb(0, 0, 0) 0%, #0039a6 100%);
+    }
+    .thirdBackground{
+        background: #000000;
+        background: linear-gradient(180deg, #0039a6 0%, #3a901b 100%);
+    }
     // Header
     .portfolio__titles--nav--div{
         .portfolio__titles--nav--div--title{
@@ -281,44 +289,72 @@
         padding-left: 2rem;
     }
     // Activities
-    #vbImg{
-    width: 50%;
-    }
-    #gamesImg{
-    width: 50%;
-    }
-    #nerdImg{
-    width: 50%;
-    }
-    #problemImg{
-    width: 50%;
-    }
+
+
+    
     // Languages
     .portfolio__foreignLanguages--languageTitle{
-        font-size: 4rem;
+        font-size: 5rem;
     }
     .portfolio__foreignLanguages--li{
         font-size: 7rem;
     }
     // Education
+    .portfolio__education--cards--container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 5rem;
+        align-items: center;
+    }
+    #unamCardContent{
+        display: flex;
+        align-items: center;
+    }
+    #michiganCardContent{
+        display: flex;
+        align-items: center;
+    }
+    #ibmCardContent{
+        display: flex;
+        align-items: center;
+        width: 60%;
+    }
     .portfolio__education--section{
         .card-title{
-            font-size: 2.8rem;
+            font-size: 2rem;
+        }
+        .card-body{
+            padding: 1rem 0.3rem 1rem 0.3rem;
         }
         .card-body p{
-            font-size: 2.2rem;
+            font-size: 1.5rem;
+            padding: 1rem 0.3rem 1rem 1rem;
         }
         .btn{
-            font-size: 1.4rem;
+            font-size: 1.7rem;
         }
         img{
-            max-height: 30rem;
+            max-height: 16rem;
+        }
+        #unamImg{
+            margin-top: 0.5rem;
+            width: 40%;
+        }
+        #michiganImg{
+            margin-top: 0.5rem;
+            width: 70%;
+        }
+        #ibmImg{
+            margin-top: 0.5rem;
+            width: 100%;
         }
     }
     // Experience
     .portfolio__experience--container{
         #experienceName{
-            font-size: 3rem;
+            font-size: 3.5rem;
         }
         .accordion-body{
             font-size: 2rem;
@@ -326,45 +362,69 @@
     }
     // Projects
     .carrouselContainer{
+        width: 100;
+        margin-top: 3rem;
         .projectCard{
             .card-title{
                 // display: none;
-                font-size: 3rem;
+                font-size: 4rem;
             }
             .card-text{
                 // display: none;
-                font-size: 2rem;
+                font-size: 3rem;
             }
             button{
-                font-size: 1.5rem;
+                font-size: 2rem;
             }
             .modal-title{
-                font-size: 2.7rem;
+                font-size: 3rem;
             }
             #modalBodyText{
-                font-size: 2.2rem;
+                font-size: 2.7rem;
+            }
+            .btn{
+                font-size: 2.5rem;
             }
         }
     }
+    .modal-dialog{
+        max-width: 80%
+    }
     // Footer
     #mailButton{
-        width: 40%;
-        font-size: 3.5rem;
-        border-radius: 1.5rem;
+        width: 30%;
+        font-size: 3rem;
+        border-radius: 1rem;
     }
     #openedMailButton{
-        width: 15%;
+        width: 12%;
         font-size: 2rem;
-        border-radius: 1.5rem;
+        border-radius: 1rem;
     }
     #mailLabel{
-        font-size: 2.7rem;
+        font-size: 3.5rem;
+    }
+    #email_id{
+        height: 5rem;
+        border-radius: 0.8rem;
     }
     #nameLabel{
-        font-size: 2.7rem;
+        font-size: 3.5rem;
+    }
+    #from_name{
+        height: 5rem;
+        border-radius: 0.8rem;
     }
     #messageLabel{
-        font-size: 2.7rem;
+        font-size: 3.5rem;
+    }
+    #message{
+        border-radius: 1rem;
+    }
+    #button{
+        margin-top: 2rem;
+        font-size: 2rem;
+        width: 40%;
     }
 }
 // Desktop

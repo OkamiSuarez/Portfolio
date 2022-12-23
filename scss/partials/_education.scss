@@ -1,16 +1,8 @@
-.portfolio__education{
-    @include educationContainer;
-}
-.portfolio__education--h3{
-    @include title-port-underline;
-}
-.portfolio__education--section{
-    @include textCard;
-}
 .portfolio__education--section{
     display: flex;
     justify-content: center;
     width: 100%;
+    
     .card{
         width: 85%;
     }
@@ -35,3 +27,12 @@
     }
 }
 
+.portfolio__education{
+    @include educationContainer;
+}
+.portfolio__education--h3{
+    @include title-port-underline;
+}
+.portfolio__education--section{
+    @include textCard;
+}
