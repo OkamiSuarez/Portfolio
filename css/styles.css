@@ -887,6 +887,10 @@ html {
   width: 100%;
 }
 
+.portfolio__education--responsive--container {
+  background-color: azure;
+}
+
 .portfolio__education {
   display: flex;
   flex-wrap: wrap;

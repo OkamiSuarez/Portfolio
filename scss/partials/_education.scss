@@ -26,6 +26,9 @@
         width: 100%;
     }
 }
+.portfolio__education--responsive--container{
+    background-color: azure
+}
 
 .portfolio__education{
     @include educationContainer;
