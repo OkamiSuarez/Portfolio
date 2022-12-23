@@ -888,7 +888,8 @@ html {
 }
 
 .portfolio__education--responsive--container {
-  background-color: azure;
+  font-size: 2rem;
+  background-color: white;
 }
 
 .portfolio__education {
