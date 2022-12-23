@@ -274,53 +274,10 @@ html {
     font-size: 7rem;
   }
   .portfolio__education--cards--container {
+    display: none;
+  }
+  .portfolio__education--responsive--container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 5rem;
-    align-items: center;
-  }
-  #unamCardContent {
-    display: flex;
-    align-items: center;
-  }
-  #michiganCardContent {
-    display: flex;
-    align-items: center;
-  }
-  #ibmCardContent {
-    display: flex;
-    align-items: center;
-    width: 60%;
-  }
-  .portfolio__education--section .card-title {
-    font-size: 2rem;
-  }
-  .portfolio__education--section .card-body {
-    padding: 1rem 0.3rem 1rem 0.3rem;
-  }
-  .portfolio__education--section .card-body p {
-    font-size: 1.5rem;
-    padding: 1rem 0.3rem 1rem 1rem;
-  }
-  .portfolio__education--section .btn {
-    font-size: 1.7rem;
-  }
-  .portfolio__education--section img {
-    max-height: 16rem;
-  }
-  .portfolio__education--section #unamImg {
-    margin-top: 0.5rem;
-    width: 40%;
-  }
-  .portfolio__education--section #michiganImg {
-    margin-top: 0.5rem;
-    width: 70%;
-  }
-  .portfolio__education--section #ibmImg {
-    margin-top: 0.5rem;
-    width: 100%;
   }
   .portfolio__experience--container #experienceName {
     font-size: 3.5rem;
@@ -888,8 +845,40 @@ html {
 }
 
 .portfolio__education--responsive--container {
-  font-size: 2rem;
+  display: none;
+  width: 80%;
+  height: auto;
   background-color: white;
+  border-radius: 1rem;
+  margin: 5rem 5rem 2rem 5rem;
+}
+@media only screen and (min-width: 1024px) {
+  .portfolio__education--responsive--container {
+    display: flex;
+  }
+}
+.portfolio__education--responsive--container .d-flex {
+  justify-content: flex-start;
+  max-width: 40%;
+}
+.portfolio__education--responsive--container .d-flex .nav {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-content: flex-start;
+}
+.portfolio__education--responsive--container .d-flex .nav button {
+  font-size: 4rem;
+  width: 100%;
+}
+.portfolio__education--responsive--container .d-flex .tab-content {
+  font-size: 3rem;
+}
+.portfolio__education--responsive--container .d-flex .tab-content .tab-pane {
+  text-align: center;
+}
+.portfolio__education--responsive--container .d-flex .tab-content .tab-pane img {
+  align-items: center;
 }
 
 .portfolio__education {

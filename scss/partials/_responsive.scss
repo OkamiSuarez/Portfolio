@@ -301,56 +301,25 @@
     }
     // Education
     .portfolio__education--cards--container{
+        display: none;
+    }
+    // #unamCardContent{
+    //     display: flex;
+    //     align-items: center;
+    // }
+    // #michiganCardContent{
+    //     display: flex;
+    //     align-items: center;
+    // }
+    // #ibmCardContent{
+    //     display: flex;
+    //     align-items: center;
+    //     width: 30%;
+    // }
+    .portfolio__education--responsive--container{
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin-top: 5rem;
-        align-items: center;
     }
-    #unamCardContent{
-        display: flex;
-        align-items: center;
-    }
-    #michiganCardContent{
-        display: flex;
-        align-items: center;
-    }
-    #ibmCardContent{
-        display: flex;
-        align-items: center;
-        width: 60%;
-    }
-    .portfolio__education--section{
-        .card-title{
-            font-size: 2rem;
-        }
-        .card-body{
-            padding: 1rem 0.3rem 1rem 0.3rem;
-        }
-        .card-body p{
-            font-size: 1.5rem;
-            padding: 1rem 0.3rem 1rem 1rem;
-        }
-        .btn{
-            font-size: 1.7rem;
-        }
-        img{
-            max-height: 16rem;
-        }
-        #unamImg{
-            margin-top: 0.5rem;
-            width: 40%;
-        }
-        #michiganImg{
-            margin-top: 0.5rem;
-            width: 70%;
-        }
-        #ibmImg{
-            margin-top: 0.5rem;
-            width: 100%;
-        }
-    }
+    
     // Experience
     .portfolio__experience--container{
         #experienceName{
