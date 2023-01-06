@@ -31,23 +31,37 @@
 
     .d-flex{
         justify-content: flex-start;
-        max-width: 40%;
+        max-width: 100%;
         .nav{
             height: 100%;
             width: auto;
             display: flex;
-            align-content: flex-start;
+            align-content: space-around;
             button{
                 font-size: 4rem;
                 width: 100%;
             }
         }
         .tab-content{
+            color: #000;
             font-size: 3rem;
+            width: 270%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+            h5{
+                font-size: 5rem;
+            }
             .tab-pane{
                 text-align: center;
+                // color: #000;
                 img{
                     align-items: center;
+                    width: auto;
+                    max-height: 25rem;
+                    border-radius: 2rem
                 }
             }
         }

@@ -846,11 +846,11 @@ html {
 
 .portfolio__education--responsive--container {
   display: none;
-  width: 80%;
+  width: 90%;
   height: auto;
-  background-color: white;
+  background-color: rgb(221, 221, 221);
   border-radius: 1rem;
-  margin: 5rem 5rem 2rem 5rem;
+  margin: 5rem 0.5rem 2rem 0.5rem;
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__education--responsive--container {
@@ -859,26 +859,39 @@ html {
 }
 .portfolio__education--responsive--container .d-flex {
   justify-content: flex-start;
-  max-width: 40%;
+  max-width: 100%;
 }
 .portfolio__education--responsive--container .d-flex .nav {
   height: 100%;
   width: auto;
   display: flex;
-  align-content: flex-start;
+  align-content: space-around;
 }
 .portfolio__education--responsive--container .d-flex .nav button {
   font-size: 4rem;
   width: 100%;
 }
 .portfolio__education--responsive--container .d-flex .tab-content {
+  color: #000;
   font-size: 3rem;
+  width: 270%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.portfolio__education--responsive--container .d-flex .tab-content h5 {
+  font-size: 5rem;
 }
 .portfolio__education--responsive--container .d-flex .tab-content .tab-pane {
   text-align: center;
 }
 .portfolio__education--responsive--container .d-flex .tab-content .tab-pane img {
   align-items: center;
+  width: auto;
+  max-height: 25rem;
+  border-radius: 2rem;
 }
 
 .portfolio__education {
