@@ -850,7 +850,7 @@ html {
   height: auto;
   background-color: rgb(221, 221, 221);
   border-radius: 1rem;
-  margin: 5rem 0.5rem 2rem 0.5rem;
+  margin: 5rem 0rem 2rem 0rem;
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__education--responsive--container {
@@ -865,15 +865,14 @@ html {
   height: 100%;
   width: auto;
   display: flex;
-  align-content: space-around;
 }
 .portfolio__education--responsive--container .d-flex .nav button {
-  font-size: 4rem;
+  font-size: 2.5rem;
   width: 100%;
 }
 .portfolio__education--responsive--container .d-flex .tab-content {
   color: #000;
-  font-size: 3rem;
+  font-size: 2rem;
   width: 270%;
   height: 100%;
   display: flex;
@@ -882,7 +881,7 @@ html {
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 .portfolio__education--responsive--container .d-flex .tab-content h5 {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .portfolio__education--responsive--container .d-flex .tab-content .tab-pane {
   text-align: center;
@@ -893,11 +892,14 @@ html {
   max-height: 25rem;
   border-radius: 2rem;
 }
+.portfolio__education--responsive--container .d-flex #codeacademyImg {
+  width: 100%;
+}
 
 .portfolio__education {
   display: flex;
   flex-wrap: wrap;
-  margin: 2rem 0.5rem -0.1rem 0.5rem;
+  margin: 2rem 0rem -0.1rem 0rem;
   padding-left: 0;
   align-content: center;
   align-items: center;

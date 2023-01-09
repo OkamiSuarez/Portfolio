@@ -225,7 +225,7 @@
 @mixin educationContainer {
     display: flex;
     flex-wrap: wrap;
-    margin: 2rem 0.5rem -0.1rem 0.5rem;
+    margin: 2rem 0rem -0.1rem 0rem;
     padding-left: 0;
     align-content: center;
     align-items: center;
@@ -239,7 +239,7 @@
     height: auto;
     background-color: rgb(221, 221, 221);
     border-radius: 1rem;
-    margin: 5rem 0.5rem 2rem 0.5rem;
+    margin: 5rem 0rem 2rem 0rem;
     @media only screen and (min-width: 1024px) {
         display: flex;
     }
