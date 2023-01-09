@@ -892,8 +892,20 @@ html {
   max-height: 25rem;
   border-radius: 2rem;
 }
+.portfolio__education--responsive--container .d-flex #unamImg {
+  max-height: 15rem;
+}
 .portfolio__education--responsive--container .d-flex #codeacademyImg {
-  width: 100%;
+  width: 95%;
+}
+.portfolio__education--responsive--container .d-flex .card {
+  margin: 1.5rem;
+  border-radius: 2rem;
+}
+.portfolio__education--responsive--container .d-flex p button {
+  margin: 1rem 0.5rem 0rem 0.5rem;
+  font-size: 2rem;
+  width: 80%;
 }
 
 .portfolio__education {

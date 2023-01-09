@@ -61,12 +61,26 @@
                     align-items: center;
                     width: auto;
                     max-height: 25rem;
-                    border-radius: 2rem
+                    border-radius: 2rem;
                 }
             }
         }
+        #unamImg{
+            max-height: 15rem;
+        }
         #codeacademyImg{
-            width: 100%;
+            width: 95%;
+        }
+        .card{
+            margin: 1.5rem;
+            border-radius: 2rem
+        }
+        p{
+            button{
+                margin: 1rem 0.5rem 0rem 0.5rem;
+                font-size: 2rem;
+                width: 80%;
+            }
         }
     }
 }
