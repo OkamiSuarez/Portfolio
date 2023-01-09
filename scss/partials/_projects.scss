@@ -1,10 +1,4 @@
-.portfolio__projects{
-    @include projectsContainer;
-}
-.portfolio__projects--title{
-    @include title-list;
-    color: rgb(215, 215, 215);
-}
+
 .carrouselContainer{
     width: 95%;
     height: auto;
@@ -33,4 +27,12 @@
             font-size: 1.1rem;
         }
     }
+}
+
+.portfolio__projects{
+    @include projectsContainer;
+}
+.portfolio__projects--title{
+    @include title-list;
+    color: rgb(215, 215, 215);
 }

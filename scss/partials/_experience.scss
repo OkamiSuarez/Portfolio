@@ -1,5 +1,5 @@
 .portfolio__experience{
-    padding: 1rem 1rem 2rem 1rem;
+    @include experiencePad;
 }
 .portfolio__experience--title{
     @include title-list;

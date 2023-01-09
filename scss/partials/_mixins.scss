@@ -133,7 +133,6 @@
         color: rgb(0, 0, 0);
         margin: 5rem 0 0 0;
         padding: 1rem 6rem 1rem 6rem;
-
     }
 };
 
@@ -183,6 +182,8 @@
     }
 };
 
+// Language
+
 @mixin listContainerLanguages {
     display: flex;
     flex-direction: row;
@@ -221,6 +222,8 @@
         font-size: 3rem;
     }
 };
+
+// Education
 
 @mixin educationContainer {
     display: flex;
@@ -264,12 +267,21 @@
     width: 100%;
 }
 
+@mixin experiencePad{
+    padding: 1rem 1rem 2rem 1rem;
+    @media only screen and (min-width: 1024px){
+        padding: 1rem 0rem 2rem 0rem;
+    }
+}
+
 @mixin experienceContainer{
     padding: 1rem 1rem 2rem 1rem;
     @media only screen and (min-width: 1024px){
-        padding: 4rem 1rem 2rem 1rem;
+        padding: 4rem 3rem 1rem 3rem;
     }
 };
+
+//Projects
 
 @mixin projectsContainer{
     display: flex;
@@ -277,7 +289,12 @@
     align-items: center;
     flex-wrap: nowrap;
     color: #000;
+    @media only screen and (min-width: 1024px){
+        align-items: stretch;
+    }
 };
+
+// Footer
 
 @mixin footerContainer{
     margin: 2rem 0.5rem 2rem 0.5rem;

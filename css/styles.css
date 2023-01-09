@@ -283,10 +283,10 @@ html {
     font-size: 3.5rem;
   }
   .portfolio__experience--container .accordion-body {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .carrouselContainer {
-    width: 100;
+    min-width: 100%;
     margin-top: 3rem;
   }
   .carrouselContainer .projectCard .card-title {
@@ -969,6 +969,11 @@ html {
 .portfolio__experience {
   padding: 1rem 1rem 2rem 1rem;
 }
+@media only screen and (min-width: 1024px) {
+  .portfolio__experience {
+    padding: 1rem 0rem 2rem 0rem;
+  }
+}
 
 .portfolio__experience--title {
   font-size: 2rem;
@@ -1004,7 +1009,7 @@ html {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__experience--container {
-    padding: 4rem 1rem 2rem 1rem;
+    padding: 4rem 3rem 1rem 3rem;
   }
 }
 
@@ -1019,42 +1024,6 @@ html {
 }
 .portfolio__experience--container .accordion .accordion-item {
   border: solid 1px black;
-}
-
-.portfolio__projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-wrap: nowrap;
-  color: #000;
-}
-
-.portfolio__projects--title {
-  font-size: 2rem;
-  text-align: center;
-  text-decoration: underline;
-  color: rgb(215, 215, 215);
-}
-@media only screen and (min-width: 480px) {
-  .portfolio__projects--title {
-    font-size: 3rem;
-    margin-bottom: 3rem;
-  }
-}
-@media only screen and (min-width: 768px) {
-  .portfolio__projects--title {
-    margin-top: 3rem;
-    font-size: 4rem;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  .portfolio__projects--title {
-    font-size: 6rem;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    margin: 5rem 0 0 0;
-    padding: 1rem 6rem 1rem 6rem;
-  }
 }
 
 .carrouselContainer {
@@ -1085,6 +1054,47 @@ html {
   text-align: justify;
   padding: 1rem 2rem 1rem 2rem;
   font-size: 1.1rem;
+}
+
+.portfolio__projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  color: #000;
+}
+@media only screen and (min-width: 1024px) {
+  .portfolio__projects {
+    align-items: stretch;
+  }
+}
+
+.portfolio__projects--title {
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(215, 215, 215);
+}
+@media only screen and (min-width: 480px) {
+  .portfolio__projects--title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .portfolio__projects--title {
+    margin-top: 3rem;
+    font-size: 4rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .portfolio__projects--title {
+    font-size: 6rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 5rem 0 0 0;
+    padding: 1rem 6rem 1rem 6rem;
+  }
 }
 
 footer {

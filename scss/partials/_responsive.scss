@@ -303,19 +303,7 @@
     .portfolio__education--cards--container{
         display: none;
     }
-    // #unamCardContent{
-    //     display: flex;
-    //     align-items: center;
-    // }
-    // #michiganCardContent{
-    //     display: flex;
-    //     align-items: center;
-    // }
-    // #ibmCardContent{
-    //     display: flex;
-    //     align-items: center;
-    //     width: 30%;
-    // }
+
     .portfolio__education--responsive--container{
         display: flex;
     }
@@ -326,12 +314,13 @@
             font-size: 3.5rem;
         }
         .accordion-body{
-            font-size: 2rem;
+            font-size: 3rem;
         }
+
     }
     // Projects
     .carrouselContainer{
-        width: 100;
+        min-width: 100%;
         margin-top: 3rem;
         .projectCard{
             .card-title{
