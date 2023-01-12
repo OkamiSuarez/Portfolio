@@ -30,6 +30,8 @@
 };
 
 @mixin title-port-underline {
+    display: flex;
+    justify-content: center;
     font-size: 2rem;
     padding-bottom: 2rem;
     margin: 1rem 2rem 1rem 2rem;
@@ -246,6 +248,11 @@
     @media only screen and (min-width: 1024px) {
         display: flex;
     }
+    @media only screen and (min-width: 1600px) {
+        display: flex;
+        width: 70%;
+
+    }
 }
 
 @mixin textCard {
@@ -271,6 +278,9 @@
     padding: 1rem 1rem 2rem 1rem;
     @media only screen and (min-width: 1024px){
         padding: 1rem 0rem 2rem 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -278,6 +288,7 @@
     padding: 1rem 1rem 2rem 1rem;
     @media only screen and (min-width: 1024px){
         padding: 4rem 3rem 1rem 3rem;
+        width: 85%;
     }
 };
 
@@ -291,8 +302,21 @@
     color: #000;
     @media only screen and (min-width: 1024px){
         align-items: stretch;
+
     }
 };
+
+@mixin projectImg{
+    width: 99%;
+    height: auto;
+    border-radius: 1rem;
+    @media only screen and (min-width: 1024px){
+        width: 55%;
+    }
+    @media only screen and (min-width: 1024px){
+        width: auto;
+    }
+}
 
 // Footer
 

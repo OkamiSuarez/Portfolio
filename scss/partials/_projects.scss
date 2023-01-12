@@ -16,9 +16,7 @@
             margin-top: 1rem;
             margin-bottom: 1rem;
             img{
-                width: 99%;
-                height: auto;
-                border-radius: 1rem;
+                @include projectImg;
             }
         }
         .modal-body{

@@ -273,6 +273,9 @@ html {
   .portfolio__foreignLanguages--li {
     font-size: 7rem;
   }
+  .portfolio__education--h3 {
+    width: 100%;
+  }
   .portfolio__education--cards--container {
     display: none;
   }
@@ -285,7 +288,13 @@ html {
   .portfolio__experience--container .accordion-body {
     font-size: 3rem;
   }
+  #carouselExampleIndicators {
+    display: flex;
+    width: 90%;
+  }
   .carrouselContainer {
+    display: flex;
+    justify-content: center;
     min-width: 100%;
     margin-top: 3rem;
   }
@@ -293,7 +302,7 @@ html {
     font-size: 4rem;
   }
   .carrouselContainer .projectCard .card-text {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .carrouselContainer .projectCard button {
     font-size: 2rem;
@@ -302,10 +311,10 @@ html {
     font-size: 3rem;
   }
   .carrouselContainer .projectCard #modalBodyText {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
   }
   .carrouselContainer .projectCard .btn {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .modal-dialog {
     max-width: 80%;
@@ -347,9 +356,15 @@ html {
   }
 }
 @media only screen and (min-width: 1600px) {
-  * {
-    display: none;
-    background-color: yellow;
+  .portfolio__education--responsive--container {
+    display: flex;
+  }
+  .carousel-item .card {
+    width: 40%;
+  }
+  .carousel-item img {
+    max-height: 40rem;
+    width: auto;
   }
 }
 .portfolio__titles--nav--div {
@@ -493,6 +508,8 @@ html {
   }
 }
 .portfolio__aboutMe .portfolio__aboutMe--title {
+  display: flex;
+  justify-content: center;
   font-size: 2rem;
   padding-bottom: 2rem;
   margin: 1rem 2rem 1rem 2rem;
@@ -857,6 +874,12 @@ html {
     display: flex;
   }
 }
+@media only screen and (min-width: 1600px) {
+  .portfolio__education--responsive--container {
+    display: flex;
+    width: 70%;
+  }
+}
 .portfolio__education--responsive--container .d-flex {
   justify-content: flex-start;
   max-width: 100%;
@@ -920,6 +943,8 @@ html {
 }
 
 .portfolio__education--h3 {
+  display: flex;
+  justify-content: center;
   font-size: 2rem;
   padding-bottom: 2rem;
   margin: 1rem 2rem 1rem 2rem;
@@ -972,6 +997,9 @@ html {
 @media only screen and (min-width: 1024px) {
   .portfolio__experience {
     padding: 1rem 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -981,6 +1009,7 @@ html {
   text-decoration: underline;
   color: rgb(215, 215, 215);
   padding-bottom: 1rem;
+  width: 100%;
 }
 @media only screen and (min-width: 480px) {
   .portfolio__experience--title {
@@ -1010,6 +1039,7 @@ html {
 @media only screen and (min-width: 1024px) {
   .portfolio__experience--container {
     padding: 4rem 3rem 1rem 3rem;
+    width: 85%;
   }
 }
 
@@ -1049,6 +1079,16 @@ html {
   width: 99%;
   height: auto;
   border-radius: 1rem;
+}
+@media only screen and (min-width: 1024px) {
+  .carrouselContainer .projectCard .projectImgContainer img {
+    width: 55%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .carrouselContainer .projectCard .projectImgContainer img {
+    width: auto;
+  }
 }
 .carrouselContainer .projectCard .modal-body {
   text-align: justify;

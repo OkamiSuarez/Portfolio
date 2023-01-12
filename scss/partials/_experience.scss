@@ -5,6 +5,7 @@
     @include title-list;
     color: rgb(215, 215, 215);
     padding-bottom: 1rem;
+    width: 100%;
 }
 .portfolio__experience--container{
     @include experienceContainer;

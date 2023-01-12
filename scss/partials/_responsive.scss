@@ -300,6 +300,9 @@
         font-size: 7rem;
     }
     // Education
+    .portfolio__education--h3{
+        width: 100%;
+    }
     .portfolio__education--cards--container{
         display: none;
     }
@@ -319,7 +322,13 @@
 
     }
     // Projects
+    #carouselExampleIndicators{
+        display: flex;
+        width: 90%;
+    }
     .carrouselContainer{
+        display: flex;
+        justify-content: center;
         min-width: 100%;
         margin-top: 3rem;
         .projectCard{
@@ -329,7 +338,7 @@
             }
             .card-text{
                 // display: none;
-                font-size: 3rem;
+                font-size: 2rem;
             }
             button{
                 font-size: 2rem;
@@ -338,10 +347,10 @@
                 font-size: 3rem;
             }
             #modalBodyText{
-                font-size: 2.7rem;
+                font-size: 2.5rem;
             }
             .btn{
-                font-size: 2.5rem;
+                font-size: 2rem;
             }
         }
     }
@@ -387,8 +396,21 @@
 }
 // Desktop
 @media only screen and (min-width: 1600px) {
-    *{
-        display: none;
-        background-color: yellow;
-    }
+    // *{
+    //     // display: none;
+    //     // background-color: yellow;
+    // }
+        // Education
+        .portfolio__education--responsive--container{
+            display: flex;
+        }
+        .carousel-item{
+            .card{
+                width: 40%;
+            }
+            img{
+                max-height: 40rem;
+                width: auto;
+            }
+        }
 }
