@@ -642,9 +642,20 @@ html {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(121, 121, 121);
+  color: rgb(0, 0, 0);
   transform: rotateY(180deg);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.flip-card-back h2 {
+  font-size: 2.5rem;
+}
+.flip-card-back p {
+  font-size: 1rem;
 }
 
 .portfolio__activities--li--r--img--vb {
