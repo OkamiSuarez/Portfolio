@@ -242,18 +242,18 @@ html {
     background: linear-gradient(180deg, #0039a6 0%, #3a901b 100%);
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h2 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--title .portfolio__titles--nav--div--h3 {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--dropdown a {
-    width: 35rem;
-    font-size: 3rem;
+    width: 25rem;
+    font-size: 2rem;
   }
   .portfolio__titles--nav--div .portfolio__titles--nav--div--items--container .portfolio__titles--nav--div--btn-header {
-    font-size: 3rem;
-    width: 20%;
+    font-size: 2rem;
+    width: 15%;
   }
   .portfolio_activities--desktop--container p {
     font-size: 1rem;
@@ -283,7 +283,7 @@ html {
     display: flex;
   }
   .portfolio__experience--container #experienceName {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .portfolio__experience--container .accordion-body {
     font-size: 3rem;
@@ -299,25 +299,25 @@ html {
     margin-top: 3rem;
   }
   .carrouselContainer .projectCard .card-title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .carrouselContainer .projectCard .card-text {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .carrouselContainer .projectCard button {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .carrouselContainer .projectCard .modal-title {
     font-size: 3rem;
   }
   .carrouselContainer .projectCard #modalBodyText {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .carrouselContainer .projectCard .btn {
     font-size: 2rem;
   }
   .modal-dialog {
-    max-width: 80%;
+    max-width: 70%;
   }
   #mailButton {
     width: 30%;
@@ -446,8 +446,13 @@ html {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__welcome .portfolio__welcome--text--h2--1 {
-    font-size: 5rem;
-    padding: 5rem 6rem 0 6rem;
+    font-size: 2.6rem;
+    padding: 1rem 5rem 0 5rem;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .portfolio__welcome .portfolio__welcome--text--h2--1 {
+    font-size: 3rem;
   }
 }
 .portfolio__welcome .portfolio__welcome--text--h2--2 {
@@ -469,8 +474,13 @@ html {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__welcome .portfolio__welcome--text--h2--2 {
-    font-size: 5rem;
-    padding: 5rem 6rem 0 6rem;
+    font-size: 2.6rem;
+    padding: 1rem 5rem 0 5rem;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .portfolio__welcome .portfolio__welcome--text--h2--2 {
+    font-size: 3rem;
   }
 }
 .portfolio__welcome .portfolio__welcome--text--h3 {
@@ -491,8 +501,8 @@ html {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__welcome .portfolio__welcome--text--h3 {
-    font-size: 3.8rem;
-    padding: 5rem 6rem 0 6rem;
+    font-size: 2.8rem;
+    padding: 2rem 6rem 0 6rem;
   }
 }
 
@@ -529,11 +539,16 @@ html {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__aboutMe .portfolio__aboutMe--title {
-    font-size: 6rem;
+    font-size: 3rem;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    margin: 5rem 0 0 0;
+    margin: 3rem 0 0 0;
     padding: 0 6rem 0 6rem;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .portfolio__aboutMe .portfolio__aboutMe--title {
+    font-size: 4rem;
   }
 }
 .portfolio__aboutMe .portfolio__aboutMe--info {
@@ -553,8 +568,8 @@ html {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__aboutMe .portfolio__aboutMe--info {
-    font-size: 3.8rem;
-    padding: 5rem 6rem 0 6rem;
+    font-size: 2.8rem;
+    padding: 2rem 6rem 0 6rem;
   }
 }
 .portfolio__aboutMe .portfolio__aboutMe--info .portfolio__aboutMe--text1 {
@@ -687,10 +702,10 @@ html {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__activities .portfolio__activities--ul .portfolio__activities--title {
-    font-size: 6rem;
+    font-size: 3rem;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    margin: 5rem 0 0 0;
+    margin: 3rem 0 0 0;
     padding: 1rem 6rem 1rem 6rem;
   }
 }
@@ -777,10 +792,10 @@ html {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__foreignLanguages .portfolio__foreignLanguages--title {
-    font-size: 6rem;
+    font-size: 3rem;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    margin: 5rem 0 0 0;
+    margin: 3rem 0 0 0;
     padding: 1rem 6rem 1rem 6rem;
   }
 }
@@ -810,8 +825,8 @@ html {
 }
 @media only screen and (min-width: 768px) {
   .portfolio__foreignLanguages .portfolio__foreignLanguages--container .portfolio__foreignLanguages--languageTitle {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 4rem;
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -964,11 +979,16 @@ html {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__education--h3 {
-    font-size: 6rem;
+    font-size: 3rem;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    margin: 5rem 0 0 0;
+    margin: 3rem 0 0 0;
     padding: 0 6rem 0 6rem;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .portfolio__education--h3 {
+    font-size: 4rem;
   }
 }
 
@@ -1025,10 +1045,10 @@ html {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__experience--title {
-    font-size: 6rem;
+    font-size: 3rem;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    margin: 5rem 0 0 0;
+    margin: 3rem 0 0 0;
     padding: 1rem 6rem 1rem 6rem;
   }
 }
@@ -1085,7 +1105,7 @@ html {
     width: 55%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1600px) {
   .carrouselContainer .projectCard .projectImgContainer img {
     width: auto;
   }
@@ -1129,10 +1149,10 @@ html {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__projects--title {
-    font-size: 6rem;
+    font-size: 3rem;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    margin: 5rem 0 0 0;
+    margin: 3rem 0 0 0;
     padding: 1rem 6rem 1rem 6rem;
   }
 }
@@ -1230,7 +1250,8 @@ button {
 }
 @media only screen and (min-width: 1024px) {
   .portfolio__contact--container .portfolio__contact--title {
-    font-size: 6rem;
+    font-size: 4rem;
+    width: 75%;
     color: rgb(0, 0, 0);
   }
 }

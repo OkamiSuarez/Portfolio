@@ -252,20 +252,20 @@
     .portfolio__titles--nav--div{
         .portfolio__titles--nav--div--title{
             .portfolio__titles--nav--div--h2{
-                font-size: 5rem;
+                font-size: 3rem;
             }
             .portfolio__titles--nav--div--h3{
-                font-size: 4rem;
+                font-size: 2rem;
             }
         }
         .portfolio__titles--nav--div--items--container{
             .portfolio__titles--nav--div--dropdown a{
-                width: 35rem;
-                font-size: 3rem;
+                width: 25rem;
+                font-size: 2rem;
             }
             .portfolio__titles--nav--div--btn-header{
-                font-size: 3rem;
-                width: 20%;
+                font-size: 2rem;
+                width: 15%;
             }
         }
     }
@@ -314,7 +314,7 @@
     // Experience
     .portfolio__experience--container{
         #experienceName{
-            font-size: 3.5rem;
+            font-size: 3rem;
         }
         .accordion-body{
             font-size: 3rem;
@@ -334,20 +334,20 @@
         .projectCard{
             .card-title{
                 // display: none;
-                font-size: 4rem;
+                font-size: 3rem;
             }
             .card-text{
                 // display: none;
-                font-size: 2rem;
+                font-size: 2.5rem;
             }
             button{
-                font-size: 2rem;
+                font-size: 2.5rem;
             }
             .modal-title{
                 font-size: 3rem;
             }
             #modalBodyText{
-                font-size: 2.5rem;
+                font-size: 2rem;
             }
             .btn{
                 font-size: 2rem;
@@ -355,7 +355,7 @@
         }
     }
     .modal-dialog{
-        max-width: 80%
+        max-width: 70%
     }
     // Footer
     #mailButton{
