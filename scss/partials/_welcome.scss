@@ -4,11 +4,17 @@
         @include title-port;
     }
     .portfolio__welcome--text--h2--2{
-        @include title-port;
+        @include photoTextPort;
     }
     .portfolio__welcome--text--h3{
         @include text-port;
         padding-right: 7.5rem;
+    }
+    .portfolio__welcome--img--container{
+        @include personalPhotoContainer;
+        img{
+            @include imgPersonal;
+        }
     }
 }
 

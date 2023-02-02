@@ -69,6 +69,8 @@
     @media only screen and (min-width: 768px) {
         font-size: 3.4rem;
         // color: rgb(25, 201, 255);
+        margin: 3rem 1rem 0rem 1rem;
+        padding-bottom: 1rem;
     }
         @media only screen and (min-width: 1024px){
         font-size: 2.6rem;
@@ -93,8 +95,68 @@
     @media only screen and (min-width: 1024px){
         font-size: 2.8rem;
         padding: 2rem 6rem 0 6rem;
+
     }
 };
+
+@mixin personalPhotoContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (min-width: 768px) {
+        flex-direction: row;
+        margin: 0rem 3rem 0 3rem;
+        gap: 2rem;
+    }
+    @media only screen and (min-width: 1024px) {
+        margin: 2rem 2rem 0 5rem;
+        gap: 3rem;
+    }
+}
+
+@mixin photoTextPort {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    margin: 1rem 2rem 1rem 2rem;
+    text-align: justify;
+    @media only screen and (min-width: 480px){
+        font-size: 2.8rem;
+        margin: 3rem 1rem 3rem 1rem;
+    }
+    @media only screen and (min-width: 768px) {
+        font-size: 2.5rem;
+        // color: rgb(25, 201, 255);
+    }
+    @media only screen and (min-width: 860px) {
+        font-size: 2.8rem;
+        // color: rgb(25, 201, 255);
+    }
+        @media only screen and (min-width: 1024px){
+        font-size: 3rem;
+        padding: 1rem 5rem 0 5rem;
+    }
+    @media only screen and (min-width: 1600px){
+        font-size: 4.5rem;
+    }
+};
+
+@mixin imgPersonal{
+    width: 15rem;
+    height: auto;
+    @media only screen and (min-width: 480px) and (max-width: 768px){
+        width: 17rem;
+    }
+    @media only screen and (min-width: 768px) {
+        width: 19rem;
+    }
+    @media only screen and (min-width: 1024px){
+        width: 20rem;
+    }
+    @media only screen and (min-width: 1600px){
+        width: 21rem;
+    }
+}
 
 @mixin desktopActivitiesContainer{
     display: none;
