@@ -20,7 +20,7 @@ function downloadCV() {
         clearInterval(timerInterval)
     }
     }).then((result) => {
-        window.open('https://drive.google.com/file/d/1GaKC-c76Fjk0ktzn3Lf9jpyz7Uz0Xe5c/view?usp=share_link');
+        window.open('https://drive.google.com/file/d/1dFyQDzcJXm4V0SSI9oYYFDXmvO6hbFhc/view?usp=sharing');
         document.getElementsByTagName("BODY")[0].style.pointerEvents = "auto";
     if (result.dismiss === Swal.DismissReason.timer) {
         console.log('I was closed by the timer')
